@@ -1,0 +1,75 @@
+国外：
+
+包名：com.huaqiaobang.hrq
+
+ versionName "6.5.171102_g"        有g
+
+签名：
+
+ // your debug keystore
+        debug{
+            storeFile file("C:/Users/Administrator/Desktop/android_release.keystore")
+            storePassword "abcthm3b10hrq"                          //在生成.jks文件时需要填入的参数一一对应即可
+            keyAlias "android_release"
+            keyPassword "abcthm3b10hrq"
+        }
+        relealse {
+            storeFile file("C:/Users/Administrator/Desktop/android_release.keystore")
+            //Android Studio --> Build --> Generate Signed APK --> Create New 可以生成
+            storePassword "abcthm3b10hrq"                          //在生成.jks文件时需要填入的参数一一对应即可
+            keyAlias "android_release"
+            keyPassword "abcthm3b10hrq"
+        }
+
+
+
+
+
+百度地图key：feYuINZZRmoXlH9hhl2iC9jGyqMER8fg
+谷歌地图key: AIzaSyCo6K1p5JhY9omgM3R5eAStUoQDQyDiSKQ
+
+微信 appid：wx34da5ad5fa761f23   支付 appid: wx34da5ad5fa761f23
+  
+QQ   appid：1105568046
+
+
+===============================================================
+===============================================================
+
+国内：
+
+包名：com.abcs.huaqiaobang
+
+ versionName "6.5.171102"        没有g
+
+签名：
+
+ // your debug keystore
+        debug {
+            storeFile file("C:/Users/Administrator/Desktop/hqb.keystore")
+            storePassword "abcthm3b10"                          //在生成.jks文件时需要填入的参数一一对应即可
+            keyAlias "华侨帮"
+            keyPassword "abcthm3b10"
+        }
+        relealse {
+            storeFile file("C:/Users/Administrator/Desktop/hqb.keystore")
+            //Android Studio --> Build --> Generate Signed APK --> Create New 可以生成
+            storePassword "abcthm3b10"                          //在生成.jks文件时需要填入的参数一一对应即可
+            keyAlias "华侨帮"
+            keyPassword "abcthm3b10"
+        }
+
+
+
+
+
+百度地图key：5Dw6oUDCIiA3yKZTG05hfm8DuvHZEt8L
+谷歌地图key: AIzaSyDTSius68FTshvKHvtqtbOS6cPTr_z-K_k
+
+微信 appid：wx9906731d4fadfdaa   支付 appid: wxe134ccc9e61300a0
+  
+QQ   appid：1104982229
+
+
+================================================================
+
