@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <com.abcs.huaqiaobang.view.CircleImageView
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/default_image"
+        android:id="@+id/iv_logo"
+        android:scaleType="centerCrop"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <RelativeLayout
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv_name"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:text="李小璐"
+            android:layout_marginTop="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/tv_msg"
+            android:textSize="12sp"
+            android:textColor="@color/gray"
+            android:layout_marginRight="10dp"
+            android:text="你好你好你好你好你好你好你好你好你好你好你好你好"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_toLeftOf="@+id/tv_notice"
+            android:layout_marginBottom="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/tv_time"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:text="10:12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:padding="1dp"
+            android:background="@drawable/bg_red_dian"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/tv_notice"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:text="12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <View
+        android:layout_alignParentBottom="true"
+        android:background="@color/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"></View>
+</RelativeLayout>

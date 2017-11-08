@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/default_left_bg"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:id="@+id/liner_store"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <view
+        android:background="#e8e8e8"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"></view>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:id="@+id/liner_goods"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+</LinearLayout>

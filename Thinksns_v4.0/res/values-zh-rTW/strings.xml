@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">华人邦</string>
+	<string name="login_regist">查詞</string>
+	<string name="login_login">登錄</string>
+	<string name="login_login_ok">確認登錄</string>
+	<string name="hint_username">請輸入使用者名</string>
+	<string name="hint_password">請輸入密碼</string>
+	<string name="confirm_password">請確認密碼</string>
+	<string name="login_submit">提述交</string>
+	<string name="forget_password">忘記密碼？</string>
+	<string name="sign_in_quickly">或使用以下社交帳號快速登錄</string>
+	<string name="cancel">取消</string>
+	<string name="through_by_mail">通過郵箱找回</string>
+	<string name="through_by_mobile">通過手機找回</string>
+	<string name="prompt">提示</string>
+	<string name="ok">外面</string>
+	<string name="shipping_address">收貨位址</string>
+	<string name="no_shipping_address">目前還沒有收貨位址哦 ~</string>
+	<string name="add_shipping_address">新增收貨位址</string>
+	<string name="bind_mobile_phone">綁定手機號</string>
+	<string name="enter_mobile_phone">請輸入手機號碼</string>
+	<string name="get_sms_code">獲取短信驗證</string>
+	<string name="enter_sms_code">請輸入短信校檢碼</string>
+	<string name="bind_mobile_phone_ok">綁定手機</string>
+	<string name="verification_method">請選擇驗證方式</string>
+	<string name="get_security_validation">獲取安全驗證</string>
+	<string name="enter_security_code">請輸入安全校檢碼</string>
+	<string name="next">下一步</string>
+	<string name="enter_mail">請輸入郵箱</string>
+	<string name="bind_mail">綁定郵箱</string>
+	<string name="enter_payment_password">請輸入支付密碼</string>
+	<string name="confirm_payment_password">請確認支付密碼</string>
+	<string name="set_payment_password">設置支付密碼</string>
+	<string name="modify_payment_password">修改支付密碼</string>
+	<string name="add_or_modify_address">增加/修改收貨位址</string>
+	<string name="save">保存</string>
+	<string name="receiver_name">收貨人姓名</string>
+	<string name="mobile_phone">手機號碼</string>
+	<string name="province">省份</string>
+	<string name="city">城市</string>
+	<string name="area">區縣</string>
+	<string name="detaile_address">詳細位址</string>
+	<string name="postcode">郵編</string>
+	<string name="id_card">身份證號碼</string>
+	<string name="set_default_address">設置預設位址</string>
+	<string name="lottery_goods_detail_title">商品詳情</string>
+	<string name="all_need">總需︰</string>
+	<string name="join">國際節能比賽</string>
+	<string name="remain">剩餘</string>
+	<string name="immediately_buy">立即搶購</string>
+	<string name="lottery_user">獲獎使用者︰</string>
+	<string name="current_join">本期參與︰</string>
+	<string name="publish_time">揭曉時間︰</string>
+	<string name="lucky_number">幸運號碼︰</string>
+	<string name="prize_status">獎品狀態︰</string>
+	<string name="goods_detail">商品詳情</string>
+	<string name="my_luck_number">我的幸運碼</string>
+	<string name="past_pulish">往期揭曉</string>
+	<string name="good_list">商品曬單</string>
+	<string name="waiting">等待商品派發</string>
+	<string name="all_participant_records">所有參與記錄</string>
+	<string name="publishing">即將揭曉</string>
+	<string name="join_number">參與次數︰</string>
+	<string name="payment_order">支付訂單</string>
+	<string name="order_amount">訂單金額</string>
+	<string name="select_payment_method">選擇支付方式</string>
+	<string name="need_more">還需支付</string>
+	<string name="bank_card">銀行卡快捷支付</string>
+	<string name="wechat">微信支付</string>
+	<string name="alipay">支付寶</string>
+	<string name="confirm_payment">確認支付</string>
+	<string name="yyyg_goods">商品</string>
+	<string name="yyyg_publish">揭曉</string>
+	<string name="yyyg_my">我的</string>
+	<string name="no_data_record">暫無符合條件的資料記錄</string>
+	<string name="refresh">點擊刷新</string>
+	<string name="loading_more">點擊載入更多</string>
+	<string name="address_name">華僑幫海外購</string>
+	<string name="address_phone">123456789</string>
+	<string name="address_detail">廣東深圳市福田區車公廟還松大廈707A</string>
+	<string name="id_card_info">身份證資訊︰</string>
+	<string name="address_edit">編輯</string>
+	<string name="address_delete">老大哥</string>
+	<string name="no_more">沒有更多了</string>
+	<string name="loading">正在載入中...</string>
+	<string name="reload">點擊重新載入</string>
+	<string name="head">頭部</string>
+	<string name="publish_detail">揭曉詳情</string>
+	<string name="publish_countdown">揭曉倒計時︰</string>
+	<string name="more_effort_more_fortunate">越努力越幸運</string>
+	<string name="order_detail">訂單詳情</string>
+	<string name="ship_now">立即發貨</string>
+	<string name="my_lucky_purchase">我的幸運購</string>
+	<string name="cloud_balance">雲購餘額</string>
+	<string name="income_and_expenditure_details">收入支出明細</string>
+	<string name="select_number">人數期數選擇</string>
+	<string name="yygbuy_t_name">第一期 100元購物卡</string>
+	<string name="yygbuy_all_need">總需100人次</string>
+	<string name="yygbuy_people_number">人次</string>
+	<string name="number_of_participants">參與人次</string>
+	<string name="winning_probability">獲獎概率</string>
+	<string name="buy_now">立即購買</string>
+	<string name="yyyg_rule">一元幸運購說明</string>
+	<string name="past_record">往期記錄</string>
+	<string name="set_goods_address">設置發貨位址</string>
+	<string name="tip">溫馨提示:請您填寫正確的位址資訊確保商品能夠送達</string>
+	<string name="select_goods_address">請選擇收貨位址</string>
+	<string name="consignee_name">收貨人︰</string>
+	<string name="income">收入(元)</string>
+	<string name="out">支出(元)</string>
+	<string name="join_num1">參與了 (</string>
+	<string name="join_num2">) 次</string>
+	<string name="remain_num1">剩餘</string>
+	<string name="remain_num2">人次</string>
+	<string name="all_out">總支出(元)</string>
+	<string name="cloud_balance2">雲購餘額(元)</string>
+	<string name="all_income">總收入(元)</string>
+	<string name="enter_confirmation_code">輸入驗證碼</string>
+	<string name="send_to_phone">已發送驗證碼到上面這個手機</string>
+	<string name="receive_the_message">接收短信大約需要60秒</string>
+	<string name="account_securitycode">獲取驗證碼</string>
+	<string name="phone_registration">手機註冊</string>
+	<string name="send_securitycode_to_phone">我們將發送驗證碼到您的手機</string>
+	<string name="step_phone">手機號</string>
+	<string name="enter_regist_phone">請填寫註冊手機號</string>
+	<string name="step_next">下一步</string>
+	<string name="regist">查詞</string>
+	<string name="wait">請稍候...</string>
+	<string name="bound_mail">您綁定的郵箱︰</string>
+	<string name="yyg_rule">什麼是1元雲購？ 
+
+        1元雲購是指您花費1元購買1個幸運碼、 同一件商品可購買多次或一次購買多份、 購買的"幸運碼"越多、 獲得商品的幾率越大。每件商品全部號碼分配售出後 1元雲購將根據規則計算出一個號碼。持有該幸運號碼的使用者可直接獲得該商品。三步操作
+
+        1、挑選商品
+
+        流覽一元雲購內的商品，點擊"立即搶購"。
+
+        2、支付1元
+
+        通過線上支付平臺，支付1元即購買1人次，獲得1個"幸運碼"。同一件商品可購買多次或一次購買多份、 購買的"幸運碼"越多、 獲得商品的幾率越大。
+
+        3、揭曉獲得者
+
+        當一件商品達到總參與人次，抽出1名商品獲得者，您可以通過在一元幸運購"我的"查看您的搶單和幸運記錄。
+
+        注:商品揭曉後、 如您中的是購物卡、 則購物卡會立即到您的一元雲購"我的"帳戶餘額上。您可以選擇購買華僑幫商品或購買一元購但不可以提現。如您中的是實物類商品、 則會出現兩種選擇、 您可以選擇按折扣折現、 折現的金額同樣是到您的"我的"帳戶餘額上、 您可以選擇購買華僑幫商品或繼續購買一元雲購。如您選擇實物類商品，請注意填寫您的個人真實詳細資訊以便我們能夠準確無誤地為您配送商品。發貨後將有短信提示、 您也可以通過一元雲購中"我的獎品狀態"進行查詢、 瞭解當前配送進度。
+
+        幸運號碼計算規則
+
+        1、取該商品最後購買時間前網站所有商品100條購買時間記錄 (限時揭曉商品取截止時間前網站所有商品100條購買時間記錄)。
+
+        2、時間按時、分、秒、毫秒依次排列組成一組數值。
+
+        3、將這100組數值之和除以商品總需參與人次後取餘數，餘數加上10，000，001即為"幸運雲購碼"
+
+        注︰ 一元幸運購活動解釋權歸華僑幫所有。
+</string>
+	<string name="type_email">0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+	<string name="type_pwd">1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+	<string name="type_limit">0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+	<string name="yt">亞太</string>
+	<string name="read_more">展開</string>
+	<string name="read_less">收起</string>
+
+</resources>

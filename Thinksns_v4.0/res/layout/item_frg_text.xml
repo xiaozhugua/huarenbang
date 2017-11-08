@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/noselected_bg">
+
+    <RelativeLayout
+        android:id="@+id/rela_bg"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/tv_title"
+            android:textSize="15sp"
+            android:textColor="@color/textcloor"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:text="暹罗广场" />
+
+        <RelativeLayout
+            android:id="@+id/rel_count"
+            android:visibility="gone"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/red_yuandian_whit_w"
+            android:layout_width="27dp"
+            android:layout_height="27dp">
+            <TextView
+                android:layout_centerInParent="true"
+                android:textSize="14sp"
+                android:id="@+id/tv_count"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                tools:text="6" />
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+    <View
+        android:background="#e5e5e5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+</LinearLayout>

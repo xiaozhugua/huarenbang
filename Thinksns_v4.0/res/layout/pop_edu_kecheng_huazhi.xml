@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/transparent_black_40"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_above="@+id/lin_cancel"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/tljr_shape_dialogbj"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="12sp"
+            android:id="@+id/tv_name"
+            android:gravity="center"
+            android:textColor="@color/gray"
+            android:text="选择画质"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+        <View
+            android:background="@color/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+        <TextView
+
+            android:textSize="16sp"
+            android:id="@+id/tv_gaoqing"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:text="高清画质"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+        <View
+            android:background="@color/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+        <TextView
+
+            android:textSize="16sp"
+            android:id="@+id/tv_qingxi"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:text="清晰画质"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+        <View
+            android:background="@color/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+        <TextView
+
+            android:textSize="16sp"
+            android:id="@+id/tv_liuchang"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:text="流畅画质"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_above="@+id/buttom"
+        android:id="@+id/lin_cancel"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/tljr_shape_dialogbj"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:text="取消"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/buttom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></View>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:paddingTop="20px"
+    android:paddingBottom="20px"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textSize="28px"
+        android:textColor="#666666"
+        android:text="四季豆"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        />
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textSize="28px"
+        android:textColor="#666666"
+        android:text="x1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_count"
+        />
+</com.zhy.autolayout.AutoRelativeLayout>

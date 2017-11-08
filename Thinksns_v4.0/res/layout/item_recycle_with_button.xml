@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jude.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/easy_recyclevive"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        />
+
+    <ImageView
+        android:id="@+id/img_pblish"
+        android:layout_margin="15dp"
+        android:src="@drawable/img_new_local_z_publish"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="55dp"
+        android:layout_height="55dp" />
+</RelativeLayout>

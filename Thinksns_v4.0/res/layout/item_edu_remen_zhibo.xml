@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/default_image"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:id="@+id/iv_logo" />
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.abcs.huaqiaobang.view.CircleImageView
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/iv_icon" />
+        <TextView
+            android:ellipsize="end"
+            android:layout_toLeftOf="@+id/tv_num"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_toRightOf="@+id/iv_icon"
+            android:text="教育孩子"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_name" />
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/line"
+            android:textSize="10sp"
+            android:text="1200次播放"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_num" />
+
+    </RelativeLayout>
+
+</LinearLayout>

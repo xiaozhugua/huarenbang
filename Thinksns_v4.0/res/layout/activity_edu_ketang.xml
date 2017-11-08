@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edu_zhi_bo"
+    android:background="@color/hwg_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.abcs.education.EduZhiBoActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:textSize="16sp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/back"
+                android:text="返回"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:text="在线课堂"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:background="@color/hwg_bg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+
+        <View
+            android:background="@color/line"
+            android:id="@+id/line"
+            android:layout_centerInParent="true"
+            android:layout_width="1dp"
+            android:layout_height="25dp"></View>
+
+        <RelativeLayout
+            android:id="@+id/rel_zonghe"
+            android:layout_toLeftOf="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:drawableRight="@drawable/edu_down_default"
+                android:drawablePadding="5dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="综合排序"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rel_all"
+            android:layout_toRightOf="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:drawableRight="@drawable/edu_down_default"
+                android:drawablePadding="5dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="全部视频"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview_ketang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="2"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:scrollbars="none"
+        />
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="?attr/TitleHeight"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/tljr_click">
+
+            <include
+                android:id="@+id/tljr_img_news_back"
+                layout="@layout/hqb_view_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:text="招工"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg_my_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+
+    </RelativeLayout>
+
+    <com.abcs.haiwaigou.local.view.dropdownmenu.DropDownMenu
+        android:background="@color/white"
+        android:layout_below="@+id/top"
+        android:id="@+id/dropDownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ddmenuTextSize="16sp"
+        app:ddtextUnselectedColor="@color/drop_down_unselected"
+        app:ddtextSelectedColor="@color/text_red"
+        app:dddividerColor="@color/bg_my_line"
+        app:ddunderlineColor="@color/bg_my_line"
+        app:ddmenuMenuHeightPercent="0.5"
+        app:ddmenuSelectedIcon="@drawable/img_new_local_z_up"
+        app:ddmaskColor="@color/mask_color"
+        app:ddmenuBackgroundColor="#f7f7f7"
+        app:ddmenuUnselectedIcon="@drawable/img_new_local_z_xiala"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hwg_bg">
+
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:textSize="16sp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/back"
+                android:text="返回"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:text="缓存列表"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <RelativeLayout
+            android:layout_alignParentRight="true"
+            android:id="@+id/retil_delete"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/edu_delete_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+    </RelativeLayout>
+
+
+    <ListView
+        android:layout_below="@+id/top"
+        android:layout_marginBottom="45dp"
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      />
+
+
+    <RelativeLayout
+        android:background="@color/hwg_bg"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <View
+            android:background="@color/white"
+            android:id="@+id/line"
+            android:layout_centerInParent="true"
+            android:layout_width="1dp"
+            android:layout_height="25dp"></View>
+
+        <RelativeLayout
+            android:id="@+id/rel_all_select"
+            android:layout_toLeftOf="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:drawableLeft="@drawable/edu_select_default"
+                android:drawablePadding="5dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="全选"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rel_delete"
+            android:layout_toRightOf="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:drawableLeft="@drawable/edu_delete2"
+                android:drawablePadding="5dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="删除"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

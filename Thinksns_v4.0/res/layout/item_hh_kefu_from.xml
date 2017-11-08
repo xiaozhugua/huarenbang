@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_marginBottom="5px"
+        android:layout_marginTop="5px"
+        android:layout_centerHorizontal="true"
+        android:text="上午10:50"
+        android:gravity="center"
+        android:textColor="#999999"
+        android:textSize="24px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:layout_marginRight="10px"
+        android:layout_marginLeft="24px"
+        android:layout_below="@+id/tv_time"
+        android:id="@+id/img_logo"
+        android:src="@color/action_bg"
+        android:layout_width="90px"
+        android:layout_height="90px" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_marginRight="114px"
+        android:layout_below="@+id/tv_time"
+        android:background="@drawable/bg_btn_light"
+        android:layout_toRightOf="@+id/img_logo"
+        android:text="你好，欢迎光临维也纳！欢迎光临维也纳欢迎光临维也纳欢迎光临维也纳欢迎光临维也纳"
+        android:paddingRight="25px"
+        android:paddingLeft="25px"
+        android:paddingTop="28px"
+        android:paddingBottom="28px"
+        android:textColor="#000000"
+        android:textSize="28px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

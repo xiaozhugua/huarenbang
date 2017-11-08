@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relative_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:id="@+id/img_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/tv_tag"
+                android:gravity="center"
+                android:background="@drawable/hh_cuxiao_red_bg"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:text="热销"
+                android:layout_width="35dp"
+                android:layout_height="20dp" />
+            <ImageView
+                android:visibility="invisible"
+               android:src="@drawable/hh_cuxiao_red_miaosha"
+                android:id="@+id/img_logo_tag"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="14sp"
+        android:textColor="#333333"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/relative_logo"
+        android:id="@+id/tv_goods_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="虾米"/>
+    <LinearLayout
+        android:layout_below="@+id/tv_goods_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimaryDark2"
+            android:id="@+id/tv_goods_price_zhe"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="€23"/>
+        <TextView
+            android:visibility="gone"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:textSize="12sp"
+            android:textColor="#999999"
+            android:id="@+id/tv_goods_price"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="€23"/>
+    </LinearLayout>
+
+</RelativeLayout>

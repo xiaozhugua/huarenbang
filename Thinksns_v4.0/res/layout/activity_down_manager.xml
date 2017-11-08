@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_down_manager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abcs.yule.DownManagerActivity">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:textSize="16sp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/back"
+                android:text="返回"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" ></TextView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_down_finish"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"
+                android:textSize="16sp"
+                android:text="已下载"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" ></TextView>
+            <TextView
+                android:id="@+id/tv_down_doing"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"
+                android:textSize="16sp"
+                android:text="下载中"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" ></TextView>
+        </LinearLayout>
+
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@+id/top"
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

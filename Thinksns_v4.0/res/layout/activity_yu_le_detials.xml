@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yu_le_detials"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abcs.yule.YuLeDetialsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/top"
+                android:layout_width="match_parent"
+                android:layout_height="44dp">
+
+                <RelativeLayout
+                    android:id="@+id/back"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:textSize="18sp"
+                        android:drawablePadding="5dp"
+                        android:drawableLeft="@drawable/back"
+                        android:text="返回"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:textColor="@color/black"
+                    android:layout_centerInParent="true"
+                    android:textSize="18sp"
+                    android:text="神庙逃亡2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <RelativeLayout
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/retil_more"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/iv_yule_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"></View>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/top_2"
+                android:layout_below="@+id/top"
+                android:layout_width="match_parent"
+                android:layout_height="240dp">
+
+                <ImageView
+                    android:id="@+id/iv_icon"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/default_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <RelativeLayout
+                    android:layout_marginBottom="15dp"
+                    android:layout_above="@+id/bottom"
+                    android:id="@+id/rela_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <ImageView
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/iv_logo"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/iv_yule_jian"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp" />
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:layout_toRightOf="@+id/iv_logo"
+                        android:textSize="16sp"
+                        android:id="@+id/tv_name"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="神庙逃亡2" />
+
+
+                    <TextView
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toRightOf="@+id/iv_logo"
+                        android:textSize="14sp"
+                        android:id="@+id/tv_des"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="爽快的跑酷享受" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bottom"
+                    android:background="@color/transparent_black_40"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp">
+
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:text="游戏圈"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_alignParentRight="true"
+                        android:drawableRight="@drawable/iv_yule_xiangyou"
+                        android:drawablePadding="5dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:text="已有657个话题"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/top_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@color/gray01"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="游戏介绍"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp" />
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍游戏介绍"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v4.view.ViewPager
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"></android.support.v4.view.ViewPager>
+
+                <TextView
+                    android:background="@color/gray01"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="游戏圈"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp">
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/tv_quan_title1"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:text="游戏圈"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_below="@+id/tv_quan_title1"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/tv_quan_des"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="80dp"
+                        android:gravity="center_vertical"
+                        android:text="游戏圈游戏圈游戏圈游戏圈游戏圈游戏圈游戏圈游戏圈游戏圈游戏圈游戏圈游戏圈游戏圈游戏圈游戏圈"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <View
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/line"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"></View>
+
+                    <ImageView
+                        android:id="@+id/iv_quan_logo"
+                        android:layout_marginRight="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/iv_yule_jian"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp" />
+
+                </RelativeLayout>
+                
+                <TextView
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/blue"
+                    android:textSize="14sp"
+                    android:drawableRight="@drawable/iv_yule_xiangyou"
+                    android:drawablePadding="5dp"
+                    android:text="查看全部内容"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                
+                <View
+                    android:layout_marginBottom="64dp"
+                    android:background="@color/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"></View>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <View
+        android:layout_above="@+id/liner_buttom"
+        android:background="@color/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+    <LinearLayout
+        android:id="@+id/liner_buttom"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+
+        <TextView
+            android:background="@drawable/btn_login"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:text="进入游戏"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:background="@drawable/bg_btn_gray2"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            android:text="添加游戏"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

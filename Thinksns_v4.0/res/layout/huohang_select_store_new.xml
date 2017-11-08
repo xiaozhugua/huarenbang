@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+   >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@+id/liner_top"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/TitleHeight"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/relative_back"
+            android:layout_width="?attr/TitleHeight"
+            android:layout_height="match_parent"
+            android:background="@drawable/tljr_click">
+
+            <include
+                android:id="@+id/tljr_img_news_back"
+                layout="@layout/hqb_view_back" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_city_name"
+            android:src="@drawable/img_huohang_n_location3"
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/tv_city_name"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="维也纳/奥地利"/>
+
+        <ImageView
+            android:layout_toRightOf="@+id/tv_city_name"
+            android:layout_centerVertical="true"
+            android:src="@drawable/img_huohang_n_select"
+            android:layout_width="18dp"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:visibility="invisible"
+            android:id="@+id/tv_class"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/hh_class_type"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:textColor="#333333"
+                android:textSize="12sp"
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:text="分类"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line_top"
+        android:background="#d2d2d2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp">
+
+    </View>
+
+    <RelativeLayout
+        android:id="@+id/lin_tab"
+        android:gravity="center"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/liner_center"
+            android:layout_centerInParent="true"
+            android:background="@color/line"
+            android:layout_width="0.1dp"
+            android:layout_height="0.1dp"></View>
+        <RelativeLayout
+            android:id="@+id/relative_chaoshi"
+            android:layout_toLeftOf="@+id/liner_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tv_shangping"
+                android:src="@drawable/line_tab"
+                android:id="@+id/bg_line_buttom"
+                android:background="@color/line"
+                android:layout_width="40dp"
+                android:layout_height="2dp"></ImageView>
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark2"
+                android:id="@+id/tv_shangping"
+                android:gravity="center"
+                android:text="超市货行"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_pifa"
+            android:layout_toRightOf="@+id/liner_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tv_shangjia"
+                android:src="@drawable/line_tab"
+                android:id="@+id/bg_line_buttom2"
+                android:background="@color/line"
+                android:layout_width="40dp"
+                android:layout_height="2dp"></ImageView>
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@color/textcloor"
+                android:id="@+id/tv_shangjia"
+                android:gravity="center"
+                android:text="批发行"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_below="@+id/lin_tab"
+        android:id="@+id/seperate_line"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="#d2d2d2" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@+id/seperate_line"
+        android:id="@+id/main_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+   <!-- <include layout="@layout/item_chaoshi_for_hh" />-->
+</LinearLayout>
+</FrameLayout>

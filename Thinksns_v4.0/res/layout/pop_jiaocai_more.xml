@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/hwg_bg"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:text="教材，人教版。。。"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <View
+        android:background="@color/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"></View>
+    <TextView
+        android:textSize="14sp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/edu_share"
+        android:id="@+id/tv_share"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:text="分享给好友"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <View
+        android:background="@color/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"></View>
+    <TextView
+        android:textSize="14sp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/edu_delete"
+        android:id="@+id/tv_delete"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:text="删除"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <View
+        android:background="@color/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"></View>
+</LinearLayout>

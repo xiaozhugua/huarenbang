@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">华人邦</string>
+
+    <string name="login_regist">注册</string>
+    <string name="login_login">登录</string>
+    <string name="login_login_ok">确认登录</string>
+    <string name="hint_username">请输入用户名</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="confirm_password">请确认密码</string>
+    <string name="login_submit">提 交</string>
+    <string name="forget_password">忘记密码?</string>
+    <string name="sign_in_quickly">或使用以下社交帐号快速登录</string>
+    <string name="cancel">取消</string>
+    <string name="through_by_mail">通过邮箱找回</string>
+    <string name="through_by_mobile">通过手机找回</string>
+
+    <string name="prompt">提示</string>
+    <string name="ok">确定</string>
+
+    <string name="shipping_address">收货地址</string>
+    <string name="no_shipping_address">目前还没有收货地址哦~</string>
+    <string name="add_shipping_address">新增收货地址</string>
+
+    <string name="bind_mobile_phone">绑定手机号</string>
+    <string name="enter_mobile_phone">请输入手机号码</string>
+    <string name="get_sms_code">获取短信验证</string>
+    <string name="enter_sms_code">请输入短信校检码</string>
+    <string name="bind_mobile_phone_ok">绑定手机</string>
+    <string name="verification_method">请选择验证方式</string>
+    <string name="get_security_validation">获取安全验证</string>
+    <string name="enter_security_code">请输入安全校检码</string>
+    <string name="next">下一步</string>
+    <string name="enter_mail">请输入邮箱</string>
+    <string name="bind_mail">绑定邮箱</string>
+    <string name="enter_payment_password">请输入支付密码</string>
+    <string name="confirm_payment_password">请确认支付密码</string>
+    <string name="set_payment_password">设置支付密码</string>
+    <string name="modify_payment_password">修改支付密码</string>
+
+    <string name="add_or_modify_address">增加/修改收货地址</string>
+    <string name="save">保存</string>
+    <string name="receiver_name">收货人姓名</string>
+    <string name="mobile_phone">手机号码</string>
+    <string name="province">省份</string>
+    <string name="city">城市</string>
+    <string name="area">区县</string>
+    <string name="detaile_address">详细地址</string>
+    <string name="postcode">邮编</string>
+    <string name="id_card">身份证号码</string>
+    <string name="set_default_address">设置默认地址</string>
+
+    <string name="lottery_goods_detail_title">商品详情</string>
+    <string name="all_need">总需:</string>
+    <string name="join">参与</string>
+    <string name="remain">剩余</string>
+    <string name="immediately_buy">立即抢购</string>
+    <string name="lottery_user">获奖用户:</string>
+    <string name="current_join">本期参与:</string>
+    <string name="publish_time">揭晓时间:</string>
+    <string name="lucky_number">幸运号码:</string>
+    <string name="prize_status">奖品状态:</string>
+    <string name="goods_detail">商品详情</string>
+    <string name="my_luck_number">我的幸运码</string>
+    <string name="past_pulish">往期揭晓</string>
+    <string name="good_list">商品晒单</string>
+    <string name="waiting">等待商品派发</string>
+    <string name="all_participant_records">所有参与记录</string>
+    <string name="publishing">即将揭晓</string>
+    <string name="join_number">参与次数:</string>
+
+    <string name="payment_order">支付订单</string>
+    <string name="order_amount">订单金额</string>
+    <string name="select_payment_method">选择支付方式</string>
+    <string name="need_more">还需支付</string>
+    <string name="bank_card">银行卡快捷支付</string>
+    <string name="wechat">微信支付</string>
+    <string name="alipay">支付宝</string>
+    <string name="confirm_payment">确认支付</string>
+
+    <string name="yyyg_goods">商品</string>
+    <string name="yyyg_publish">揭晓</string>
+    <string name="yyyg_my">我的</string>
+
+    <string name="no_data_record">暂无符合条件的数据记录</string>
+    <string name="refresh">点击刷新</string>
+    <string name="loading_more">点击加载更多</string>
+
+    <string name="address_name">华人邦</string>
+    <string name="address_phone">123456789</string>
+    <string name="address_detail">广东 深圳市 福田区 车公庙还松大厦707A</string>
+    <string name="id_card_info">身份证信息:</string>
+    <string name="address_edit">编辑</string>
+    <string name="address_delete">删除</string>
+    <string name="no_more">没有更多了</string>
+    <string name="loading">正在加载中...</string>
+    <string name="reload">点击重新加载</string>
+    <string name="head">头部</string>
+
+    <string name="publish_detail">揭晓详情</string>
+    <string name="publish_countdown">揭晓倒计时:</string>
+    <string name="more_effort_more_fortunate">越努力 越幸运</string>
+    <string name="order_detail">订单详情</string>
+    <string name="ship_now">立即发货</string>
+    <string name="my_lucky_purchase">我的幸运购</string>
+    <string name="cloud_balance">云购余额</string>
+    <string name="income_and_expenditure_details">收入支出明细</string>
+    <string name="select_number">人数期数选择</string>
+
+    <string name="yygbuy_t_name">第一期 100元购物卡</string>
+    <string name="yygbuy_all_need">总需100人次</string>
+    <string name="yygbuy_people_number">人次</string>
+    <string name="number_of_participants">参与人次</string>
+    <string name="winning_probability">获奖概率</string>
+    <string name="buy_now">立即购买</string>
+    <string name="yyyg_rule">一元幸运购说明</string>
+    <string name="past_record">往期记录</string>
+    <string name="set_goods_address">设置发货地址</string>
+    <string name="tip">温馨提示：请您填写正确的地址信息，确保商品能够送达</string>
+    <string name="select_goods_address">请选择收货地址</string>
+
+    <string name="consignee_name">收货人:</string>
+    <string name="income">收入(元)</string>
+    <string name="out">支出(元)</string>
+    <string name="join_num1">参与了(</string>
+    <string name="join_num2">)次</string>
+    <string name="remain_num1">剩余</string>
+    <string name="remain_num2">人次</string>
+    <string name="all_out">总支出(元)</string>
+    <string name="cloud_balance2">云购余额(元)</string>
+    <string name="all_income">总收入(元)</string>
+
+    <string name="enter_confirmation_code">输入验证码</string>
+    <string name="send_to_phone">已发送验证码到上面这个手机</string>
+    <string name="receive_the_message">接收短信大约需要60秒</string>
+    <string name="account_securitycode">获取验证码</string>
+    <string name="phone_registration">手机注册</string>
+    <string name="send_securitycode_to_phone">我们将发送验证码到您的手机</string>
+    <string name="step_phone">手机号</string>
+    <string name="enter_regist_phone">请填写注册手机号</string>
+    <string name="step_next">下一步</string>
+    <string name="regist">注册</string>
+    <string name="wait">请稍候...</string>
+    <string name="bound_mail">您绑定的邮箱:</string>
+
+
+    <string name="yyg_rule">
+        什么是1元云购？\n
+        1元云购是指您花费1元购买1个幸运码，同一件商品可购买多次或一次购买多份，购买的“幸运码”越多，获得商品的几率越大。每件商品全部号码分配售出后，1元云购将根据规则计算出一个号码。持有该幸运号码的用户可直接获得该商品。三步操作\n
+        1、挑选商品\n
+        浏览一元云购内的商品，点击“立即抢购”。\n
+        2、支付1元\n
+        通过在线支付平台，支付1元即购买1人次，获得1个“幸运码”。同一件商品可购买多次或一次购买多份，购买的“幸运码”越多，获得商品的几率越大。\n
+        3、揭晓获得者\n
+        当一件商品达到总参与人次，抽出1名商品获得者，您可以通过在一元幸运购“我的”查看您的抢单和幸运记录。\n
+        注：商品揭晓后，如您中的是购物卡，则购物卡会立即到您的一元云购“我的”账户余额上。您可以选择购买华侨帮商品或购买一元购，但不可以提现。如您中的是实物类商品，则会出现两种选择，您可以选择按折扣折现，折现的金额同样是到您的“我的”账户余额上，您可以选择购买华侨帮商品或继续购买一元云购。如您选择实物类商品，请注意填写您的个人真实详细信息，以便我们能够准确无误地为您配送商品。发货后将有短信提示，您也可以通过一元云购中“我的奖品状态”进行查询，了解当前配送进度。\n
+        幸运号码计算规则\n
+        1、取该商品最后购买时间前网站所有商品100条购买时间记录（限时揭晓商品取截止时间前网站所有商品100条购买时间记录）。\n
+        2、时间按时、分、秒、毫秒依次排列组成一组数值。\n
+        3、将这100组数值之和除以商品总需参与人次后取余数，余数加上10,000,001即为“幸运云购码”\n
+        注： 一元幸运购活动解释权归华侨帮所有。\n
+    </string>
+
+    <string name="type_email">0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+    <string name="type_pwd">1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+    <string name="type_limit">0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+    <string name="yt">亚太</string>
+    <string name="read_more">展开</string>
+    <string name="read_less">收起</string>
+</resources>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#fafafa"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:textColor="@color/tljr_black"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="消息"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <View
+        android:background="#acacac"
+        android:layout_width="match_parent"
+        android:layout_height="1px"></View>
+
+
+    <!--<android.support.v4.widget.SwipeRefreshLayout-->
+        <!--android:id="@+id/swipeRefresh"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<ListView-->
+            <!--android:dividerHeight="0dp"-->
+            <!--android:divider="@null"-->
+            <!--android:id="@+id/listview"-->
+            <!--android:cacheColorHint="@color/transparent"-->
+            <!--android:listSelector="@drawable/mainclick_selector"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+        <!--</ListView>-->
+    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+<!--客服-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/relative_kefu"
+        android:background="@drawable/mainclick_selector"
+        android:padding="26px"
+        android:layout_width="match_parent"
+        android:layout_height="140px">
+
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginRight="28px"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/hh_msg_kefu"
+            android:id="@+id/img_logo"
+            />
+
+        <TextView
+            android:layout_toRightOf="@+id/img_logo"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="30px"
+            android:textColor="#333333"
+            android:text="平台客服"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:layout_alignParentTop="true"
+            />
+        <TextView
+            android:layout_toRightOf="@+id/img_logo"
+            android:layout_marginTop="18px"
+            android:layout_below="@+id/name"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_toLeftOf="@+id/time"
+            android:textSize="28px"
+            android:textColor="#666666"
+            android:text="点击查看您与客服的会话记录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc"
+            />
+        <TextView
+            android:visibility="invisible"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textSize="28px"
+            android:textColor="#999999"
+            android:text="昨天23:34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <TextView
+        android:layout_marginLeft="154px"
+        android:background="#e5e5e5"
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+    <!--购买说明-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/relative_bug_des"
+        android:background="@drawable/mainclick_selector"
+        android:padding="26px"
+        android:layout_width="match_parent"
+        android:layout_height="140px">
+
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginRight="28px"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/hh_msg_bug_des"
+            android:id="@+id/img_logo_buy_des"
+            />
+
+        <TextView
+            android:layout_toRightOf="@+id/img_logo_buy_des"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="30px"
+            android:textColor="#333333"
+            android:text="购买说明"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_buy_des"
+            android:layout_alignParentTop="true"
+            />
+        <TextView
+            android:layout_toRightOf="@+id/img_logo_buy_des"
+            android:layout_marginTop="18px"
+            android:layout_below="@+id/name_buy_des"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_toLeftOf="@+id/time_buy_des"
+            android:textSize="28px"
+            android:textColor="#666666"
+            android:text="点击查看购买说明"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc_buy_des"
+            />
+        <TextView
+            android:visibility="invisible"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textSize="28px"
+            android:textColor="#999999"
+            android:text="昨天23:34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_buy_des"
+            />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <TextView
+        android:layout_marginLeft="154px"
+        android:background="#e5e5e5"
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+    <!--订单信息-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/relative_order_msg"
+        android:background="@drawable/mainclick_selector"
+        android:padding="26px"
+        android:layout_width="match_parent"
+        android:layout_height="140px">
+
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginRight="28px"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/hh_msg_order"
+            android:id="@+id/img_logo_order_msg"
+            />
+
+        <TextView
+            android:layout_toRightOf="@+id/img_logo_order_msg"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="30px"
+            android:textColor="#333333"
+            android:text="订单信息"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_order_msg"
+            android:layout_alignParentTop="true"
+            />
+        <TextView
+            android:layout_toRightOf="@+id/img_logo_order_msg"
+            android:layout_marginTop="18px"
+            android:layout_below="@+id/name_order_msg"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_toLeftOf="@+id/time_order_msg"
+            android:textSize="28px"
+            android:textColor="#666666"
+            android:text="点击查看订单信息"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc_order_msg"
+            />
+        <TextView
+            android:visibility="invisible"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textSize="28px"
+            android:textColor="#999999"
+            android:text="昨天23:34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_order_msg"
+            />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <TextView
+        android:layout_marginLeft="154px"
+        android:background="#e5e5e5"
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+    <!--返利记录-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/relative_fanli"
+        android:background="@drawable/mainclick_selector"
+        android:padding="26px"
+        android:layout_width="match_parent"
+        android:layout_height="140px">
+
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginRight="28px"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/hh_msg_fanli"
+            android:id="@+id/img_logo_fanli"
+            />
+
+        <TextView
+            android:layout_toRightOf="@+id/img_logo_fanli"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="30px"
+            android:textColor="#333333"
+            android:text="返利记录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_fanli"
+            android:layout_alignParentTop="true"
+            />
+        <TextView
+            android:layout_toRightOf="@+id/img_logo_fanli"
+            android:layout_marginTop="18px"
+            android:layout_below="@+id/name_fanli"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_toLeftOf="@+id/time_fanli"
+            android:textSize="28px"
+            android:textColor="#666666"
+            android:text="点击查看返利记录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc_fanli"
+            />
+        <TextView
+            android:visibility="invisible"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textSize="28px"
+            android:textColor="#999999"
+            android:text="昨天23:34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_fanli"
+            />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <TextView
+        android:layout_marginLeft="154px"
+        android:background="#e5e5e5"
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+    <!--收货地址-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/relative_address"
+        android:background="@drawable/mainclick_selector"
+        android:padding="26px"
+        android:layout_width="match_parent"
+        android:layout_height="140px">
+
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginRight="28px"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/hh_msg_address"
+            android:id="@+id/img_logo_address"
+            />
+
+        <TextView
+            android:layout_toRightOf="@+id/img_logo_address"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="30px"
+            android:textColor="#333333"
+            android:text="收货地址管理"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_address"
+            android:layout_alignParentTop="true"
+            />
+        <TextView
+            android:layout_toRightOf="@+id/img_logo_address"
+            android:layout_marginTop="18px"
+            android:layout_below="@+id/name_address"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_toLeftOf="@+id/time_address"
+            android:textSize="28px"
+            android:textColor="#666666"
+            android:text="点击查看收货地址"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc_address"
+            />
+        <TextView
+            android:visibility="invisible"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textSize="28px"
+            android:textColor="#999999"
+            android:text="昨天23:34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_address"
+            />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <TextView
+        android:layout_marginLeft="154px"
+        android:background="#e5e5e5"
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+
+</com.zhy.autolayout.AutoLinearLayout>

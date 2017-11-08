@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/hwg_bg"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <TextView
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:id="@+id/tv_name"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="选集缓存"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_toRightOf="@+id/tv_name"
+            android:layout_centerVertical="true"
+            android:textSize="14sp"
+            android:paddingRight="10dp"
+            android:id="@+id/tv_huanzhi"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/gray"
+            android:text="画质：清晰"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/rel_close"
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+            <ImageView
+
+                android:layout_centerInParent="true"
+                android:src="@drawable/edu_close"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:background="@color/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"></View>
+
+    <ListView
+        android:listSelector="@color/transparent"
+        android:cacheColorHint="@color/transparent"
+        android:id="@+id/listview"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+    <View
+        android:background="@color/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:textSize="14sp"
+            android:id="@+id/tv_all_select"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="全选"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="@color/red"
+            android:textSize="14sp"
+            android:id="@+id/tv_yes"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="确认缓存"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/linear_top"
+        android:padding="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="105dp">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/ty"
+                android:paddingLeft="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toLeftOf="@+id/iv_icon"
+                    android:id="@+id/tv_title"
+                    tools:text="聘请周末帮工。"
+                    android:textSize="16sp"
+                    android:singleLine="true"
+                    android:textColor="@color/bg_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/iv_icon"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/img_new_local_re"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:paddingLeft="1dp"
+                android:layout_below="@+id/ty"
+                android:layout_marginTop="3dp"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/tv_content"
+                tools:text="4小时前。"
+                android:textSize="13sp"
+                android:textColor="@color/smallFont2"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:gravity="center_vertical|left"
+                android:orientation="horizontal"
+                android:layout_marginBottom="3dp"
+                android:layout_alignParentLeft="true"
+                android:layout_above="@+id/tv_des"
+                android:id="@+id/linear_tag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" ></LinearLayout>
+            <TextView
+                android:paddingLeft="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/tv_des"
+                tools:text="4小时前。"
+                android:textSize="12sp"
+                android:textColor="@color/smallFont2"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/img_v"
+            android:layout_width="115dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/linear_top"
+        android:background="@color/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp">
+
+    </View>
+</RelativeLayout>

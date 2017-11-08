@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+
+    <string name="recorder_normal">按住 说话</string>
+    <string name="recorder_recording">松开 手指</string>
+    <string name="recorder_want_cancel">松开手指，取消发送</string>
+    <string name="app_name">华人邦</string>
+    <string name="action_settings">Settings</string>
+    <string name="fragment_regular">理财</string>
+    <string name="fragment_my_msg1">在一起\t更精彩</string>
+    <string name="fragment_main_enter">进入</string>
+    <string name="fragment_main_entercode">请输入VIP码</string>
+    <string name="fragment_main_what">什么是贵宾通道？</string>
+    <string name="fragment_main_safe1">快捷支付</string>
+    <string name="fragment_main_safe2">富友支付，中国最大的大额支付平台，年交易额5000亿</string>
+    <string name="fragment_main_safe3">资金托管</string>
+    <string name="fragment_main_safe4">招商证卷为您的资金提供全程托管服务</string>
+    <string name="fragment_main_safe5">保险公司承保</string>
+    <string name="fragment_main_safe6">平安保险为您的资金安全进行承保</string>
+    <string name="fragment_main_vipmsg">年投资100万以上会员专属/商会贵宾/理财活动通道</string>
+    <string name="fragment_main_vip_highgain">·更高收益</string>
+    <string name="fragment_main_vip_highservice">·高端定制</string>
+    <string name="fragment_main_vip_guaranteed">阳光保险全程保本</string>
+    <string name="fragment_main_current_highgain">·实时到账</string>
+    <string name="fragment_main_current_highservice">·随存随取</string>
+    <string name="fragment_main_current_private">年化收益率</string>
+    <string name="fragment_main_current_guaranteed">阳光保险全程保本</string>
+    <string name="fragment_main_regular_threemonth">定期3个月</string>
+    <string name="fragment_main_regular_sixmonth">定期6个月</string>
+    <string name="fragment_main_regular_oneyear">定期12个月</string>
+    <string name="fragment_current_moregain">历史万份收益</string>
+    <string name="turnin">转入</string>
+    <string name="activity_vip_title">VIP·贵宾专享</string>
+    <string name="activity_vip_msg">会员专享</string>
+    <string name="activity_turnout_out">超出限额</string>
+    <string name="activity_turnout_string1">金额</string>
+    <string name="activity_turnout_string2">实时到账</string>
+    <string name="activity_turnout_string3">全部转出</string>
+    <string name="activity_turnout_string4">今天总共可转出5次,</string>
+    <string name="activity_turnout_string5">详细介绍</string>
+    <string name="activity_turnout_string6">本次最多可转出0.00元</string>
+    <string name="activity_turnout_string7">实时转出</string>
+    <string name="activity_turnin_string1">该卡本次最多可转出50,000.00元</string>
+    <string name="activity_turnin_string2">今天总共可转入5次,</string>
+    <string name="activity_turnin_string3">预计收益到账时间</string>
+    <string name="activity_turnin_string4">立即转入</string>
+    <string name="activity_turnin_complete">完成</string>
+    <string name="activity_turnin_protocol">《服务协议及风险通知》</string>
+    <string name="activity_turn_from">从</string>
+    <string name="activity_turn_to">到</string>
+    <string name="activity_mybank">我的银行卡</string>
+    <string name="activity_mybank_removebank">解除绑定</string>
+    <string name="activity_mybank_cancel">取消</string>
+    <string name="turnout">转出</string>
+    <string name="fragment_regular_guaranteed">·本金保障</string>
+    <string name="addcard">绑定银行卡</string>
+    <!--<string name="account">开户</string>-->
+    <string name="account_step1">填写基本资料</string>
+    <string name="account_step2">设置交易密码</string>
+    <string name="account_step3">绑卡验证</string>
+    <string name="account_step1_name">姓名</string>
+    <string name="account_step1_name_hint">输入真实姓名</string>
+    <string name="account_step1_card">身份证</string>
+    <string name="account_step1_card_hint">输入18位身份证号</string>
+    <string name="account_step1_phone">手机号</string>
+    <string name="account_step1_phone_hint">输入常用手机号</string>
+    <string name="account_step1_agree">同意</string>
+    <string name="account_step1_protocol">《账户服务协议》</string>
+    <string name="account_step2_password">请设置交易密码</string>
+    <string name="account_step2_password_legend">说明：此密码用于购买、赎回、转账等操作时，验证您的身份</string>
+    <string name="account_step3_name">发卡行</string>
+    <string name="account_step3_name_hint">请选择银行</string>
+    <string name="account_step3_card">卡号</string>
+    <string name="account_step3_card_hint">输入常用银行卡号</string>
+    <string name="account_step3_phone">手机号</string>
+    <string name="account_step3_phone_hint">请输入银行预留手机号</string>
+    <string name="account_step3_securitycode">验证码</string>
+    <string name="account_securitycode">获取验证码</string>
+    <string name="account_step3_protocol">《委托扣款协议》</string>
+    <string name="account_step3_bind">绑定</string>
+    <string name="dialog_enterpwd_title">请输入交易密码</string>
+    <string name="dialog_entersecuritycode_title">请输入短信验证码</string>
+    <string name="myproduct">理财资产</string>
+    <string name="myproduct_buycost">·买入金额:</string>
+    <string name="myproduct_buytime">·买入时间:</string>
+    <string name="myproduct_endtime">·结束时间:</string>
+    <string name="myproduct_yegain">·昨日收益:</string>
+    <string name="myproduct_benxi">·本息金额:</string>
+    <string name="myproduct_vip">·VIP:</string>
+    <string name="myproduct_tag">·当前状态:</string>
+    <string name="record">交易记录</string>
+    <string name="record_ok">确定</string>
+    <string name="record_week">近一周</string>
+    <string name="record_month">近一月</string>
+    <string name="record_threemonth">近三月</string>
+    <string name="item_bank_onequota">单笔限额</string>
+    <string name="item_bank_dayquota">每日限额</string>
+    <string name="item_bank_dayquotainfo">50,000.00(元)</string>
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="header_hint_refresh_normal">下拉刷新</string>
+    <string name="header_hint_refresh_ready">松开刷新</string>
+    <string name="header_hint_refresh_loading">刷新中&#8230;</string>
+    <string name="header_hint_refresh_time">上次刷新时间：</string>
+    <string name="footer_hint_load_normal">加载更多</string>
+    <string name="footer_hint_load_ready">松开加载更多</string>
+    <string name="value_default">--</string>
+    <string name="fragment_huanqiushishi">新闻</string>
+    <string name="space">&#160;</string>
+    <string name="yt">亚太</string>
+    <string name="news_channel">频道管理</string>
+    <string name="have_add">已添加</string>
+    <string name="have_add_introduce">点击删除，长按拖动排序</string>
+    <string name="can_add">可添加</string>
+    <string name="can_add_introduce">快速点击完成添加</string>
+    <string name="webview_help">帮助</string>
+    <string name="special_shuoming">购买3/6/12个月定期产品，每月1日起息，在此之前都会按照7天活期滚动投资，自动帮您做活期理财，不让您的钱休息。</string>
+    <string name="shuoming">特别说明:</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh...</string>
+    <string name="shuoshuoname">华人堂</string>
+    <string name="China_PingAn_insurance_full_guarantee">账户安全由平安保险承保</string>
+    <string name="login_hint">华人邦用户名/手机号</string>
+    <string name="version_name">版本号:</string>
+    <string name="can_not_find_version_name">华人邦</string>
+    <string name="my_shopping_cart">购物车</string>
+    <string name="my_shopping_order">订单</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="my_modif_nickname">昵称</string>
+    <string name="current_version">当前版本:</string>
+    <string name="update_date">最后更新时间:</string>
+    <string name="type_limit">0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+    <string name="type_email">0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM.@_</string>
+    <string name="type_pwd">1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM`-=[]\;,./~!@#$%^*()_+}{:?</string>
+
+
+    <string name="read_more">展开</string>
+    <string name="read_less">  收起</string>
+
+
+    <string-array name="bank_list">
+        <item>0102-中国工商银行</item>
+        <item>0103-中国农业银行</item>
+        <item>0104-中国银行</item>
+        <item>0105-中国建设银行</item>
+        <item>0403-中国邮政储蓄银行</item>
+        <item>0307-平安银行</item>
+        <item>0305-民生银行</item>
+        <item>0303-中国光大银行</item>
+        <item>0306-广东发展银行</item>
+        <item>0302-中信实业银行</item>
+        <item>0309-兴业银行</item>
+        <item>0304-华夏银行</item>
+        <item>0301-交通银行</item>
+        <item>0308-招商银行</item>
+        <item>0310-上海浦东发展银行</item>
+    </string-array>
+
+    <string-array name="hwgtitle">
+        <item>首页</item>
+        <item>分类</item>
+        <item>轻奢</item>
+        <item>独到</item>
+        <item>玩乐</item>
+    </string-array>
+
+    <string name="title_activity_all_goods">AllGoodsActivity</string>
+    <string name="title_activity_goods">GoodsActivity</string>
+    <string name="title_activity_country_goods">CountryGoods</string>
+    <string name="title_activity_goods_detail">GoodsDetailActivity</string>
+    <string name="title_activity_goods_detail_comment">GoodsDetailCommentActivity</string>
+    <string name="title_activity_cart">CartActivity</string>
+    <string name="title_activity_pay_way">PayWayActivity</string>
+    <string name="title_activity_pay_result">PayResultActivity</string>
+    <string name="title_activity_store">StoreActivity</string>
+    <string name="title_activity_test_login">TestLogin</string>
+    <string name="title_activity_goods_sort">GoodsSortActivity</string>
+    <string name="title_activity_goods_sort_detail">GoodsSortDetailActivity</string>
+    <string name="title_activity_all_store">AllStoreActivity</string>
+    <string name="title_activity_all_store_list">AllStoreListActivity</string>
+
+
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <string name="login_username">用户名/手机号</string>
+
+    <string name="reg_text1">Terms condition |</string>
+    <string name="media_ejected">储存卡已拔出，语音功能将暂时不可用</string>
+    <string name="main_plus_mcmessage">在线客服</string>
+    <!--<string name="select_contacts">选择联系人</string>-->
+    <string name="dialog_btn_confim">确认</string>
+    <string name="dialog_btn_cancel">取消</string>
+    <string name="dialog_title_alert">提示</string>
+    <string name="loading_press">请稍候，正在提交...</string>
+    <string name="imgdownload_fail">下载图片失败</string>
+    <string name="app_pic">[图片]</string>
+    <string name="app_voice">[语音]</string>
+    <string name="app_file">[文件]</string>
+    <string name="notification_fmt_one_txttype">%s发来1条消息</string>
+    <string name="notification_fmt_one_imgtype">%s发来1张图片</string>
+    <string name="notification_fmt_one_voicetype">%s发来1段语音</string>
+    <string name="notification_fmt_one_filetype">%s发来1个文件</string>
+    <string name="str_system_message_group_notice">群组通知</string>
+    <string name="login_posting_submit">正在提交，请稍候</string>
+    <!--<string name="pull_to_refresh">下拉可以刷新</string>-->
+    <!--<string name="release_to_refresh">释放立即刷新</string>-->
+    <string name="refreshing">正在加载…</string>
+    <string name="ec_voip_calling_timeout">呼叫超时，请稍后再拨</string>
+    <string name="ec_voip_calling_no_answer">无人应答，请稍后再拨</string>
+    <string name="ec_voip_call_fail">呼叫失败，请稍后重试&#8230;</string>
+    <string name="ec_voip_calling_refuse">对方拒绝您的呼叫请求</string>
+    <string name="ec_voip_calling_busy">对方正忙，请稍后再拨</string>
+    <string name="ec_voip_is_talking_tip">正在通话中, 轻击以继续</string>
+    <string name="ec_voip_call_fail_connection_failed_auth">第三方鉴权地址连接失败</string>
+    <string name="ec_voip_call_fail_no_pay_account">第三方主账号余额不足</string>
+    <string name="ec_voip_call_fail_not_find_appid">第三方应用ID未找到</string>
+    <string name="ec_voip_call_fail_not_online_only_call">第三方未上线应用仅限呼叫已配置测试号码</string>
+    <string name="ec_voip_call_auth_failed">第三方鉴权失败，子账号余额不足</string>
+    <string name="ec_voip_calling_notfound">对方不在线，请稍后重试</string>
+    <string name="ec_meeting_not_exist">会议号已解散或不存在</string>
+    <string name="ec_meeting_pass_error">会议号密码验证失败</string>
+    <string name="ec_voip_call_error">媒体协商失败</string>
+    <string name="str_call_status" formatted="false">延迟时间%d（毫秒）丢包率:%d</string>
+    <string name="str_chatroom_list_join_unfull" formatted="false">%1$s人加入,由%2$s创建</string>
+    <string name="str_chatroom_list_join_full" formatted="false">%1$s人加入(已满),由%2$s创建</string>
+    <string name="str_voice_room_name" formatted="false">当前处于%1$s会议中</string>
+    <string name="str_current_version" formatted="false">当前版本(%1$s)</string>
+    <string name="str_check_num" formatted="false">确定(%1$s)</string>
+    <string name="meeting_voice_room_error">语音会议房间无效</string>
+    <string name="member_empty_meeting">暂无可管理的会议成员</string>
+    <string name="common_progressdialog_title">请稍后...</string>
+    <string name="mulit_video_unjoin">未加入</string>
+    <string name="str_create_new_video_conference">暂无房间，请先创建一个</string>
+    <string name="video_conference_name" formatted="false">%1$s的房间</string>
+    <string name="str_video_chatting_tips" formatted="false">已邀请%1$s人参与，等待对方加入...</string>
+    <string name="meeting_invite_reject">抱歉，[%s]拒绝了你的请求</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新...</string>
+    <string name="my_shopping_deliver">收获地址</string>
+    <string name="yyg_rule">
+        什么是1元云购？\n
+        1元云购是指您花费1元购买1个幸运码，同一件商品可购买多次或一次购买多份，购买的“幸运码”越多，获得商品的几率越大。每件商品全部号码分配售出后，1元云购将根据规则计算出一个号码。持有该幸运号码的用户可直接获得该商品。三步操作\n
+        1、挑选商品\n
+        浏览一元云购内的商品，点击“立即抢购”。\n
+        2、支付1元\n
+        通过在线支付平台，支付1元即购买1人次，获得1个“幸运码”。同一件商品可购买多次或一次购买多份，购买的“幸运码”越多，获得商品的几率越大。\n
+        3、揭晓获得者\n
+        当一件商品达到总参与人次，抽出1名商品获得者，您可以通过在一元幸运购“我的”查看您的抢单和幸运记录。\n
+        注：商品揭晓后，如您中的是购物卡，则购物卡会立即到您的一元云购“我的”账户余额上。您可以选择购买华人邦商品或购买一元购，但不可以提现。如您中的是实物类商品，则会出现两种选择，您可以选择按折扣折现，折现的金额同样是到您的“我的”账户余额上，您可以选择购买华人邦商品或继续购买一元云购。如您选择实物类商品，请注意填写您的个人真实详细信息，以便我们能够准确无误地为您配送商品。发货后将有短信提示，您也可以通过一元云购中“我的奖品状态”进行查询，了解当前配送进度。\n
+        幸运号码计算规则\n
+        1、取该商品最后购买时间前网站所有商品100条购买时间记录（限时揭晓商品取截止时间前网站所有商品100条购买时间记录）。\n
+        2、时间按时、分、秒、毫秒依次排列组成一组数值。\n
+        3、将这100组数值之和除以商品总需参与人次后取余数，余数加上10,000,001即为“幸运云购码”\n
+        注： 一元幸运购活动解释权归华人邦所有。\n
+    </string>
+
+
+    <!--THINKSNS-->
+
+    <string name="getverifycode_name">获取验证码</string>
+
+    <!-- 分享所用的测试数据 -->
+    <!-- NOTE: Voice 的 URL 与 Music 一样 -->
+
+
+    <!--http://demo.thinksns.com/ts4/index.php?app=h5#/feed/reader/96308-->
+    <!-- 第三方分享拼接3G版微博地址 -->
+    <!--<string name="w3g_address_of_shareSDK_weibo">/ts4/index.php?app=w3g&amp;mod=Index&amp;act=detail&amp;weibo_id=</string>-->
+    <!-- 第三方分享拼接3G版帖子地址 -->
+    <!--http://demo.thinksns.com/ts4/index.php?app=h5#/weiba/post/4431-->
+
+    <!--分享二维码拼接地址-->
+    <!--http://demo.thinksns.com/ts4/index.php?app=h5#/user/Seven-->
+    <!--<string name="w3g_address_of_share_erweima">/ts4/index.php?app=w3g&amp;mod=Index&amp;act=weibo&amp;uid=</string>-->
+
+
+    <string name="comment_hint_edit">请输入评论...</string>
+    <string name="comment">评论</string>
+    <string name="transpond">转发</string>
+    <string name="collection">收藏</string>
+    <string name="delete">删除</string>
+    <string name="denounce">举报</string>
+    <string name="qq_share">QQ</string>
+    <!--  -->
+    <!--<string name="refreshing">更新中...</string>-->
+    <string name="please_down">下拉可以刷新</string>
+    <string name="please_up">松开可以刷新</string>
+    <string name="last_refresh">最后更新于</string>
+    <string name="send_not_content">说点什么吧...</string>
+    <string name="comment_checkbox">同时发一条新的分享</string>
+    <string name="transpond_checkbox">同时评论该作者</string>
+    <string name="please_wait">请稍候...</string>
+    <string name="loading_more">加载中...</string>
+    <string name="follow">关注</string>
+    <string name="delfollow">取消关注</string>
+    <string name="followed">粉丝</string>
+    <string name="weibo">分享</string>
+    <string name="recent">联系人</string>
+    <string name="edit_info">编辑个人资料</string>
+    <string name="word_limit">输入的字数超过限制</string>
+    <string name="search">搜索</string>
+    <string name="more">更多</string>
+    <string name="sendMessage">发送</string>
+    <string name="re_load">加载中，请勿重复点击</string>
+    <string name="private_letter">聊天</string>
+    <string name="register">注册</string>
+    <string name="refresh_success">刷新成功</string>
+    <string name="refresh_error">暂无更多信息</string>
+    <string name="search_key">搜索</string>
+    <string name="account">帐户</string>
+    <string name="input_text_topic">\#请插入话题#</string>
+    <string name="input_text_at">\@请输入昵称</string>
+    <string name="posts_content_hint">请输入内容（必填）</string>
+    <string name="weiba_com_post">回复帖子</string>
+    <string name="weiba_replay_com">回复评论</string>
+    <string name="net_fail">网络未连接，请检查网络设置</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="clear_cache_info">包括用户信息、微博信息和图片</string>
+    <string name="clear_cache_alert">确定清除缓存吗？</string>
+    <string name="clear_cache_alert_title">提示</string>
+    <string name="pic_open_down">2G/3G网络下载图片</string>
+    <string name="pic_down_off">关闭图片下载，分享列表无图模式</string>
+    <string name="pic_down_on">开启图片下载</string>
+    <string name="photo">照片</string>
+    <string name="user_info_tit">个人主页</string>
+    <string name="user_info_xx">详细</string>
+    <string name="user_info_zl">资料</string>
+    <string name="channel">频道</string>
+    <string name="information">资讯</string>
+    <string name="topic">话题</string>
+    <string name="cicle">朋友圈</string>
+    <string name="weiba">微吧</string>
+    <string name="app_set_feedback">意见反馈</string>
+    <string name="app_set_update">软件更新</string>
+    <string name="app_set_logout">注销登录</string>
+    <string name="feedback_intro">欢迎提出宝贵意见</string>
+    <string name="upload_head">上传头像</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+    <string name="sex">性别：</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="ok">确定</string>
+    <string name="all_task">全部</string>
+    <string name="topic_title">推荐话题</string>
+
+    <!-- alert message -->
+    <string name="comment_c_alert">我也说一句...</string>
+    <string name="comment_c_success">评论成功</string>
+    <string name="comment_c_fail">评论失败</string>
+
+    <!-- support text -->
+    <string name="setting_title_auto_remind">自动提醒</string>
+    <string name="setting_summary_off_auto_remind">关闭自动提醒</string>
+    <string name="setting_summary_on_auto_remind">启用自动提醒</string>
+    <string name="setting_summary_off_vibrator">关闭震动提醒</string>
+    <string name="setting_summary_on_vibrator">启用震动提醒</string>
+    <string name="setting_vibrator">震动提醒</string>
+    <string name="setting_interval">检测间隔</string>
+    <string name="setting_interval_desc">自动检测消息的间隔时间，间隔长省流量</string>
+    <string name="no_new_version">没有新版本</string>
+    <string name="area_two">开关设置</string>
+    <string name="area_three">系统设置</string>
+    <string name="xp_apps_title">应用推荐</string>
+    <string name="reg_name_hint">2-10个汉字中英文、数字、下划线</string>
+    <string name="reg_email_hint">输入正确邮箱</string>
+    <string name="reg_pass_hint">6-15个字母、数字、符号、区分大小写</string>
+    <string name="reg_re_email_alert">请输入邮箱</string>
+    <string name="reg_re_email_check_alert">请输入正确的邮箱格式</string>
+    <string name="reg_re_pass_alert">请输入密码</string>
+    <string name="reg_re_pass_lenght_alert">密码长度至少6位</string>
+    <string name="reg_re_name_alert">请输入昵称</string>
+    <string name="reg_success">注册成功</string>
+    <string name="re_p_success">密码重置成功</string>
+    <string name="wc_itme_img_error">获取图片出错</string>
+
+    <!-- 通讯录 -->
+    <string name="find_invite">我发现了一个有意思的社区，快来加入吧</string>
+
+    <!-- group -->
+
+    <!-- checkin -->
+    <string name="checkin">签到</string>
+    <string name="check_success">签到成功</string>
+    <string name="check_fail">签到失败</string>
+    <string name="reg_name">&#160; 昵称  &#160;</string>
+    <string name="reg_email">&#160; 邮箱   &#160;</string>
+    <string name="reg_pass">&#160; 密码  &#160;</string>
+    <string name="reg_re_pass">确认密码</string>
+
+    <string-array name="camera">
+        <item>立即拍照</item>
+        <item>本地照片</item>
+    </string-array>
+    <string-array name="values_interval">
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+    </string-array>
+
+    <array name="entries_interval">
+        <item>@string/entries_interval_1</item>
+        <item>@string/entries_interval_3</item>
+        <item>@string/entries_interval_4</item>
+    </array>
+
+    <string name="entries_interval_1">0.5分钟</string>
+    <string name="entries_interval_3">1分钟</string>
+    <string name="entries_interval_4">5分钟</string>
+
+    <!-- mupdf vaule -->
+
+    <!-- <string name="cancel">Cancel</string> -->
+    <string name="about_us_info">\t\t\ ThinkSNS，是智士软件开源的开源微博、社交网络平台。采用PHP+MySQL技术平台，微博+应用的产品模式，通过应用、插件、风格包等丰富的机制来扩展功能，同时支持多种常见浏览器和移动客户端。拥有iphone、android客户端以及适合手机浏览的wap版界面，是建立社交网站、微博平台、移动互联网创业的首选二次开发平台。</string>
+    <string name="title_activity_er_wei_ma">ScanActivity</string>
+    <!--<string name="title_activity_main">MainActivity</string>-->
+    <!--<string name="action_settings">Settings</string>-->
+    <!--<string name="hello_world">Hello world!</string>-->
+    <!--<string name="menu_settings">Settings</string>-->
+    <!--<string name="scan_text">将二维码放入框内, 即可自动扫描</string>-->
+    <string name="hint">提示</string>
+    <string name="imageview_content_description"></string>
+    <string name="record_camera_progress_message">正在转码…</string>
+    <string name="record_camera_exit_dialog_message">是否放弃这段视频？</string>
+    <string name="record_camera_import_video_choose">从本地视频选择</string>
+    <string name="record_camera_cancel_dialog_yes">确定</string>
+    <string name="record_camera_cancel_dialog_no">取消</string>
+    <string name="record_video_transcoding_faild">视频转码失败</string>
+    <!--<string name="save">保存</string>-->
+    <string name="attach_picture">相册</string>
+    <string name="attach_take_pic">拍照</string>
+    <string name="attach_location">位置</string>
+    <string name="attach_file">名片</string>
+    <string name="move_up_to_cancel">手指上滑，取消发送</string>
+    <!--<string name="picture">[图片]</string>-->
+    <string name="title_activity_t4_find_person_details">T4FindPersonDetails</string>
+    <string name="title_activity_bind__user__register">Bind_User_RegisterActivity</string>
+
+    <string name="tip_double_click_exit">再按一次退出</string>
+    <string name="btn_gift_donation">转赠</string>
+    <string name="txt_from_anonymous">来自: 匿名</string>
+    <string name="show_current_location">显示当前位置</string>
+    <string name="i_am_here">我在这里</string>
+    <string name="current_location">当前所在位置</string>
+    <string name="fav_add_follow">+关注</string>
+    <string name="fav_followed">已关注</string>
+
+    <!--空置页面文字提示-->
+    <!--分享相关、频道、微吧、帖子、草稿、照片、视频、话题-->
+    <string name="empty_content">没有任何内容</string>
+    <string name="empty_user_comment">还没有人评论</string>
+    <string name="empty_user_digg">还没有人点赞</string>
+    <string name="empty_search_result">暂无用户</string>
+    <string name="empty_friends">还没有联系人</string>
+    <string name="empty_collection">还没收藏相关内容</string>
+    <string name="empty_user_following">还没有人关注你</string>
+    <string name="empty_user_followed">还没关注任何人</string>
+    <string name="empty_user">暂无用户</string>
+    <string name="empty_medal">暂无勋章</string>
+    <string name="empty_post">没有任何帖子</string>
+    <string name="empty_more_data">没有更多内容了</string>
+    <string name="empty_user_intro">这家伙很懒，什么也没留下</string>
+    <!--频道模块文字设置-->
+    <!--频道分享数-->
+    <string name="channel_content_count">已有%s条分享</string>
+    <!--举报内容说明-->
+    <string name="denounce_tips">不良信息是指含有色情、暴力、广告或其他骚扰你正常工作生活的内容，您是否举报?</string>
+
+    <string-array name="jazzy_effects">
+        <item>@string/standard</item>
+        <item>Grow</item>
+        <item>Cards</item>
+        <item>Curl</item>
+        <item>Wave</item>
+        <item>Flip</item>
+        <item>Fly</item>
+        <item>ReverseFly</item>
+        <item>Helix</item>
+        <item>Fan</item>
+        <item>Tilt</item>
+        <item>Zipper</item>
+        <item>Fade</item>
+        <item>Twirl</item>
+        <item>SlideIn</item>
+    </string-array>
+
+    <string name="standard">Standard</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--一元云购-->
+
+    <string name="login_regist">注册</string>
+    <string name="login_login">登录</string>
+    <string name="login_login_ok">确认登录</string>
+    <string name="hint_username">请输入用户名</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="confirm_password">请确认密码</string>
+    <string name="login_submit">提 交</string>
+    <string name="forget_password">忘记密码?</string>
+    <string name="sign_in_quickly">或使用以下社交帐号快速登录</string>
+    <string name="through_by_mail">通过邮箱找回</string>
+    <string name="through_by_mobile">通过手机找回</string>
+
+    <string name="prompt">提示</string>
+
+    <string name="shipping_address">收货地址</string>
+    <string name="no_shipping_address">目前还没有收货地址哦~</string>
+    <string name="add_shipping_address">新增收货地址</string>
+
+    <string name="bind_mobile_phone">绑定手机号</string>
+    <string name="enter_mobile_phone">请输入手机号码</string>
+    <string name="get_sms_code">获取短信验证</string>
+    <string name="enter_sms_code">请输入短信校检码</string>
+    <string name="bind_mobile_phone_ok">绑定手机</string>
+    <string name="verification_method">请选择验证方式</string>
+    <string name="get_security_validation">获取安全验证</string>
+    <string name="enter_security_code">请输入安全校检码</string>
+    <string name="next">下一步</string>
+    <string name="enter_mail">请输入邮箱</string>
+    <string name="bind_mail">绑定邮箱</string>
+    <string name="enter_payment_password">请输入支付密码</string>
+    <string name="confirm_payment_password">请确认支付密码</string>
+    <string name="set_payment_password">设置支付密码</string>
+    <string name="modify_payment_password">修改支付密码</string>
+
+    <string name="add_or_modify_address">增加/修改收货地址</string>
+    <string name="save">保存</string>
+    <string name="receiver_name">收货人姓名</string>
+    <string name="mobile_phone">手机号码</string>
+    <string name="province">省份</string>
+    <string name="city">城市</string>
+    <string name="area">区县</string>
+    <string name="detaile_address">详细地址</string>
+    <string name="postcode">邮编</string>
+    <string name="id_card">身份证号码</string>
+    <string name="set_default_address">设置默认地址</string>
+
+    <string name="lottery_goods_detail_title">商品详情</string>
+    <string name="all_need">总需:</string>
+    <string name="join">参与</string>
+    <string name="remain">剩余</string>
+    <string name="immediately_buy">立即抢购</string>
+    <string name="lottery_user">获奖用户:</string>
+    <string name="current_join">本期参与:</string>
+    <string name="publish_time">揭晓时间:</string>
+    <string name="lucky_number">幸运号码:</string>
+    <string name="prize_status">奖品状态:</string>
+    <string name="goods_detail">商品详情</string>
+    <string name="my_luck_number">我的幸运码</string>
+    <string name="past_pulish">往期揭晓</string>
+    <string name="good_list">商品晒单</string>
+    <string name="waiting">等待商品派发</string>
+    <string name="all_participant_records">所有参与记录</string>
+    <string name="publishing">即将揭晓</string>
+    <string name="join_number">参与次数:</string>
+
+    <string name="payment_order">支付订单</string>
+    <string name="order_amount">订单金额</string>
+    <string name="select_payment_method">选择支付方式</string>
+    <string name="need_more">还需支付</string>
+    <string name="bank_card">银行卡快捷支付</string>
+    <string name="wechat">微信支付</string>
+    <string name="alipay">支付宝</string>
+    <string name="confirm_payment">确认支付</string>
+
+    <string name="yyyg_goods">商品</string>
+    <string name="yyyg_publish">揭晓</string>
+    <string name="yyyg_my">我的</string>
+
+    <string name="no_data_record">暂无符合条件的数据记录</string>
+    <string name="refresh">点击刷新</string>
+
+    <string name="address_name">华人邦</string>
+    <string name="address_phone">123456789</string>
+    <string name="address_detail">广东 深圳市 福田区 车公庙还松大厦707A</string>
+    <string name="id_card_info">身份证信息:</string>
+    <string name="address_edit">编辑</string>
+    <string name="address_delete">删除</string>
+    <string name="no_more">没有更多了</string>
+    <string name="loading">正在加载中...</string>
+    <string name="reload">点击重新加载</string>
+    <string name="head">头部</string>
+
+    <string name="publish_detail">揭晓详情</string>
+    <string name="publish_countdown">揭晓倒计时:</string>
+    <string name="more_effort_more_fortunate">越努力 越幸运</string>
+    <string name="order_detail">订单详情</string>
+    <string name="ship_now">立即发货</string>
+    <string name="address">设置发货地址</string>
+    <string name="my_lucky_purchase">我的幸运购</string>
+    <string name="cloud_balance">云购余额</string>
+    <string name="income_and_expenditure_details">收入支出明细</string>
+    <string name="select_number">人数期数选择</string>
+
+    <string name="yygbuy_t_name">第一期 100元购物卡</string>
+    <string name="yygbuy_all_need">总需100人次</string>
+    <string name="yygbuy_people_number">人次</string>
+    <string name="number_of_participants">参与人次</string>
+    <string name="winning_probability">获奖概率</string>
+    <string name="buy_now">立即购买</string>
+    <string name="yyyg_rule">一元幸运购说明</string>
+    <string name="past_record">往期记录</string>
+    <string name="set_goods_address">设置发货地址</string>
+    <string name="tip">温馨提示：请您填写正确的地址信息，确保商品能够送达</string>
+    <string name="select_goods_address">请选择收货地址</string>
+
+    <string name="consignee_name">收货人:</string>
+    <string name="income">收入(元)</string>
+    <string name="out">支出(元)</string>
+    <string name="join_num1">参与了(</string>
+    <string name="join_num2">)次</string>
+    <string name="remain_num1">剩余:</string>
+    <string name="remain_num2">人次</string>
+    <string name="all_out">总支出(元)</string>
+    <string name="cloud_balance2">云购余额(元)</string>
+    <string name="all_income">总收入(元)</string>
+
+    <string name="enter_confirmation_code">输入验证码</string>
+    <string name="send_to_phone">已发送验证码到上面这个手机</string>
+    <string name="receive_the_message">接收短信大约需要60秒</string>
+    <string name="phone_registration">手机注册</string>
+    <string name="send_securitycode_to_phone">我们将发送验证码到您的手机</string>
+    <string name="step_phone">手机号</string>
+    <string name="enter_regist_phone">请填写注册手机号</string>
+    <string name="step_next">下一步</string>
+    <string name="regist">注册</string>
+    <string name="wait">请稍候...</string>
+    <string name="bound_mail">您绑定的邮箱:</string>
+    <string name="title_activity_new_huo_hang">NewHuoHangActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_huo_hang_n">HuoHangNActivity</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+
+</resources>

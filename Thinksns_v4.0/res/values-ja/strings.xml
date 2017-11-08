@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">华人邦</string>
+	<string name="login_regist">レジスト</string>
+	<string name="login_login">ログイン</string>
+	<string name="login_login_ok">ログインを確認します。</string>
+	<string name="hint_username">ユーザー名</string>
+	<string name="hint_password">パスワード</string>
+	<string name="confirm_password">パスワードをご確認ください。</string>
+	<string name="login_submit">送信</string>
+	<string name="forget_password">パスワードを忘れた方はこちら</string>
+	<string name="sign_in_quickly">或使用以下社交帐号快速登录</string>
+	<string name="cancel">キャンセル</string>
+	<string name="through_by_mail">郵送</string>
+	<string name="through_by_mobile">携帯電話で</string>
+	<string name="prompt">プロンプトを表示します。</string>
+	<string name="ok">わかりました</string>
+	<string name="shipping_address">配送先住所</string>
+	<string name="no_shipping_address">今ないの配送先住所</string>
+	<string name="add_shipping_address">配送先住所を追加します。</string>
+	<string name="bind_mobile_phone">携帯電話携帯電話をバインドします。</string>
+	<string name="enter_mobile_phone">あなたの携帯電話を入力してください。</string>
+	<string name="get_sms_code">Sms コードを取得します。</string>
+	<string name="enter_sms_code">Sms コードを入力してください。</string>
+	<string name="bind_mobile_phone_ok">わかりました</string>
+	<string name="verification_method">確認方法を選択してください。</string>
+	<string name="get_security_validation">セキュリティ検証を取得します。</string>
+	<string name="enter_security_code">セキュリティ コードを入力してください。</string>
+	<string name="next">次</string>
+	<string name="enter_mail">メールを入力してください。</string>
+	<string name="bind_mail">メールをバインドします。</string>
+	<string name="enter_payment_password">決済パスワードを入力してください。</string>
+	<string name="confirm_payment_password">決済パスワードをご確認ください。</string>
+	<string name="set_payment_password">料金設定パスワード</string>
+	<string name="modify_payment_password">決済パスワードを変更します。</string>
+	<string name="add_or_modify_address">アドレスの追加/変更</string>
+	<string name="save">保存</string>
+	<string name="receiver_name">受信者の名前</string>
+	<string name="mobile_phone">携帯電話</string>
+	<string name="province">州</string>
+	<string name="city">市</string>
+	<string name="area">エリア</string>
+	<string name="detaile_address">すべすべアドレス</string>
+	<string name="postcode">郵便番号</string>
+	<string name="id_card">ID カード</string>
+	<string name="set_default_address">設定デフォルトのアドレス</string>
+	<string name="lottery_goods_detail_title">商品詳細</string>
+	<string name="all_need">すべての必要性:</string>
+	<string name="join">参加します。</string>
+	<string name="remain">まま</string>
+	<string name="immediately_buy">購入します。</string>
+	<string name="lottery_user">宝くじのユーザー:</string>
+	<string name="current_join">現在の結合:</string>
+	<string name="publish_time">公開時間。</string>
+	<string name="lucky_number">ラッキー ナンバー:</string>
+	<string name="prize_status">賞の状態:</string>
+	<string name="goods_detail">商品詳細</string>
+	<string name="my_luck_number">私のラッキー ナンバー</string>
+	<string name="past_pulish">過去の発行します。</string>
+	<string name="good_list">良いリスト</string>
+	<string name="waiting">商品のディストリビューションを待っています。</string>
+	<string name="all_participant_records">参加者のすべてのレコード</string>
+	<string name="publishing">発行</string>
+	<string name="join_number">契約:</string>
+	<string name="payment_order">納付命令</string>
+	<string name="order_amount">注文金額</string>
+	<string name="select_payment_method">支払い方法を選択します。</string>
+	<string name="need_more">詳細が必要</string>
+	<string name="bank_card">銀行カードで</string>
+	<string name="wechat">Wechat により</string>
+	<string name="alipay">アリペイで</string>
+	<string name="confirm_payment">わかりました</string>
+	<string name="yyyg_goods">商品</string>
+	<string name="yyyg_publish">発行</string>
+	<string name="yyyg_my">私</string>
+	<string name="no_data_record">データ レコードがありません。</string>
+	<string name="refresh">更新</string>
+	<string name="loading_more">多くの読み込み</string>
+	<string name="address_name">华人邦</string>
+	<string name="address_phone">12345678910</string>
+	<string name="address_detail">广东「深圳市福田区车公庙还松大厦707A</string>
+	<string name="id_card_info">Id カード:</string>
+	<string name="address_edit">編集</string>
+	<string name="address_delete">削除</string>
+	<string name="no_more">これ以上はない</string>
+	<string name="loading">読み込んでいます.</string>
+	<string name="reload">再読み込み</string>
+	<string name="head">頭</string>
+	<string name="publish_detail">詳細を公開します。</string>
+	<string name="publish_countdown">カウント ダウン:</string>
+	<string name="more_effort_more_fortunate">努力すれば、もっと幸運</string>
+	<string name="order_detail">注文の詳細</string>
+	<string name="ship_now">今船</string>
+	<string name="my_lucky_purchase">私のラッキーの購入</string>
+	<string name="cloud_balance">バランス</string>
+	<string name="income_and_expenditure_details">収入と支出</string>
+	<string name="select_number">番号を選択します。</string>
+	<string name="yygbuy_t_name">第一期 100元购物卡</string>
+	<string name="yygbuy_all_need">总需100人次</string>
+	<string name="yygbuy_people_number">番号</string>
+	<string name="number_of_participants">番号</string>
+	<string name="winning_probability">確率</string>
+	<string name="buy_now">購入します。</string>
+	<string name="yyyg_rule">ルール</string>
+	<string name="past_record">レコード</string>
+	<string name="set_goods_address">設定するアドレス</string>
+	<string name="tip">温馨提示:请您填写正确的地址信息、确保商品能够送达</string>
+	<string name="select_goods_address">商品のアドレスを選択します。</string>
+	<string name="consignee_name">荷受人の名前:</string>
+	<string name="income">Income(¥)</string>
+	<string name="out">Out(¥)</string>
+	<string name="join_num1">結合 (</string>
+	<string name="join_num2">) 回</string>
+	<string name="remain_num1">まま</string>
+	<string name="remain_num2">回</string>
+	<string name="all_out">すべての out(¥)</string>
+	<string name="cloud_balance2">Balance(¥)</string>
+	<string name="all_income">すべての income(¥)</string>
+	<string name="enter_confirmation_code">確認コードを入力してください。</string>
+	<string name="send_to_phone">この携帯電話に確認コードが送信されました</string>
+	<string name="receive_the_message">メッセージを受信する約 60 秒をかかります。</string>
+	<string name="account_securitycode">確認コードを取得します。</string>
+	<string name="phone_registration">登録</string>
+	<string name="send_securitycode_to_phone">私たちはあなたの携帯電話に確認コードが送信されます。</string>
+	<string name="step_phone">携帯電話</string>
+	<string name="enter_regist_phone">登録電話</string>
+	<string name="step_next">次</string>
+	<string name="regist">レジスト</string>
+	<string name="wait">待っています.</string>
+	<string name="bound_mail">メールをバインドします。</string>
+	<string name="yyg_rule">1 元の雲の購入は何ですか? 
+
+        1 元雲購入いくつかの時間またはより可能性が高く商品への「ラッキー コード」の購入の複数のコピーを購入する一度に同じアイテムを購入ことができますラッキー コードを購入する 1 の元を過ごすということです。各項目を販売する割り当てられているすべての番号 1 元雲を数を計算するためのルールに従って計算されます。ラッキー ナンバーを所有しているユーザーは、商品を直接取得できます。3 つのステップ: 
+
+        Goods
+ の 1、Selection
+        1 元雲の商品の購入を参照して、クリックして「購入」。
+
+        2、Pay 1 yuan
+
+        オンライン決済プラットフォームを通じて 1 人を購入する 1 の元を支払う「ラッキー コード」を取得します。いくつかの時間またはより可能性が高く商品。 
+ へのアクセス「ラッキー コード」の購入の複数のコピーを購入する一度に同じアイテムを購入ことができます。
+        3、Announced、winner
+
+        製品商品勝者からの参加者の合計数に達すると買うことができる幸運な 1 つの元の「私」チェックあなたのシングル、ラッキー レコード。 
+
+        メモ: 商品が発表された場合は、ショッピング カード後、ショッピング カードがすぐに 1 ドル クラウドを購入「私」の口座残高。あなたはまたはドルの購買を購入海外中国の商品を購入するを選択できますが今 
+ を言及することはないです。
+        商品の種類の場合は、ヘルプ、または 1 ドルのクラウドを購入、あなたと発送後できるだけ早くアドレスを追加を続行する海外の中国商品を購入することができます。商品の種類を選択した場合に注意してください実際の個人情報を記入する商品のディストリビューションを正確にできます。出産後、SMS 通知がある、ドル クラウドを現在配布スケジュールします。 
+ を理解するための「私の賞のステータス」クエリも購入できます。
+        幸運な数計算 rules
+
+        1、Take この項目最終仕入のサイトの前に時間 (期間限定発表を商品はすべて商品 100 購入時間レコード。 
+ サイトの前に時間の時間のレコードを購入するすべての商品 100
+        分、分、秒、ミリ秒の値。 
+ グループを形成するために 2、Time
+        3、The これらの 100 の合計値が残りの部分を取っている人々 の数の後に商品の合計数で割った値に加えて、10,000,001 は「幸運の雲購入コード」
+
+        すべて海外中国語ヘルプします。 
+ する権利を説明する注: 1 元雲購入活動</string>
+	<string name="type_email">0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+	<string name="type_pwd">1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+	<string name="type_limit">0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+	<string name="yt">屋台</string>
+	<string name="read_more">展開します。</string>
+	<string name="read_less">距離を置く</string>
+
+</resources>

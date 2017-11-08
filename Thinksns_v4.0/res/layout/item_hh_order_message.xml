@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/relative_main"
+        android:padding="15px"
+        android:layout_marginTop="1px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:background="@drawable/mainclick_selector"
+            android:id="@+id/relative_to_store"
+            android:layout_width="match_parent"
+            android:layout_height="90px">
+            <ImageView
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="30px"
+                android:layout_centerVertical="true"
+                android:layout_width="76px"
+                android:layout_height="76px"
+                android:src="@drawable/hh_msg_fanli"
+                android:id="@+id/img_store_logo"
+                />
+
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:drawablePadding="30px"
+                android:drawableRight="@drawable/hh_order_tostore"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/img_store_logo"
+                android:textSize="30px"
+                android:textColor="#333333"
+                android:text="仟惠仁（维也纳）"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_store_name"
+                />
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:textSize="28px"
+                android:textColor="#666666"
+                android:text="订单已完成"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_order_state"
+                />
+
+            <TextView
+                android:layout_marginLeft="126px"
+                android:layout_alignParentBottom="true"
+                android:background="#e5e5e5"
+                android:layout_width="match_parent"
+                android:layout_height="1px" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_marginLeft="126px"
+            android:layout_below="@+id/relative_to_store"
+            android:paddingTop="12px"
+            android:paddingBottom="25px"
+            android:id="@+id/linear_goods_list"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <TextView
+            android:layout_marginTop="3px"
+            android:layout_marginRight="10px"
+            android:layout_toLeftOf="@+id/tv_total_price"
+            android:layout_below="@+id/linear_goods_list"
+            android:textSize="24px"
+            android:textColor="#666666"
+            android:text="共3件商品，总计"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_count"
+            />
+        <TextView
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/linear_goods_list"
+            android:textSize="30px"
+            android:textColor="#333333"
+            android:text="€89.89"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_total_price"
+            />
+
+        <TextView
+            android:id="@+id/tv_line"
+            android:layout_marginLeft="126px"
+            android:layout_below="@+id/tv_total_price"
+            android:layout_marginTop="10px"
+            android:background="#e5e5e5"
+            android:layout_width="match_parent"
+            android:layout_height="1px" />
+
+        <TextView
+
+            android:layout_marginTop="15px"
+            android:layout_below="@+id/tv_line"
+            android:layout_alignParentRight="true"
+            android:paddingRight="25px"
+            android:paddingLeft="25px"
+            android:paddingTop="20px"
+            android:paddingBottom="20px"
+            android:background="@drawable/bg_btn_gray_no_radius"
+            android:id="@+id/tv_zailai"
+            android:textSize="28px"
+            android:textColor="#333333"
+            android:text="再次购买"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:visibility="invisible"
+            android:layout_marginRight="15px"
+            android:layout_toLeftOf="@+id/tv_zailai"
+            android:layout_marginTop="15px"
+            android:layout_below="@+id/tv_line"
+            android:paddingRight="25px"
+            android:paddingLeft="25px"
+            android:paddingTop="20px"
+            android:paddingBottom="20px"
+            android:background="@drawable/bg_btn_gray_no_radius"
+            android:id="@+id/tv_wuliu"
+            android:textSize="28px"
+            android:textColor="#333333"
+            android:text="查看物流"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <TextView
+        android:background="#f4f4f4"
+        android:layout_width="match_parent"
+        android:layout_height="20px" />
+
+</com.zhy.autolayout.AutoLinearLayout>

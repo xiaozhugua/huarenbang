@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hwg_bg">
+
+    <ListView
+        android:layout_marginBottom="45dp"
+        android:id="@+id/rv_hdong"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      />
+
+
+    <RelativeLayout
+        android:background="@color/gray0.4"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <View
+            android:background="@color/white"
+            android:id="@+id/line"
+            android:layout_centerInParent="true"
+            android:layout_width="1dp"
+            android:layout_height="25dp"></View>
+
+        <RelativeLayout
+            android:id="@+id/rel_all_pause"
+            android:layout_toLeftOf="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:drawableLeft="@drawable/iv_yule_buttom_pause"
+                android:drawablePadding="5dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="全部暂停"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rel_all_delete"
+            android:layout_toRightOf="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:drawableLeft="@drawable/iv_yule_delete_all"
+                android:drawablePadding="5dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="全部清除"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

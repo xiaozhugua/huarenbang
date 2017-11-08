@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/default_left_bg">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:background="@color/default_left_bg"
+        android:id="@+id/rela_bg"
+        android:layout_width="match_parent"
+        android:layout_height="90px">
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/line_bg"
+            android:background="@drawable/hh_class_jx"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/tv_title"
+            android:textSize="16sp"
+            android:textColor="@color/text_unselected"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:text="暹罗广场" />
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <View
+        android:background="#e8e8e8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+</com.zhy.autolayout.AutoLinearLayout>

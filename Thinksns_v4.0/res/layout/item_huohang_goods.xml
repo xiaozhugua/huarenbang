@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/mainclick_selector"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/bg_blue_corner"
+            android:id="@+id/iv_goods_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp" ></ImageView>
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:gravity="right|center_vertical"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!--com.abcs.haiwaigou.local.huohang.view.MyOuYuanTextView-->
+            <TextView
+                android:id="@+id/tv_goods_price"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                tools:text="€ 200.00"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" ></TextView>
+
+            <!--com.abcs.haiwaigou.local.huohang.view.MyOuYuanTextView-->
+            <TextView
+                android:textSize="14sp"
+                android:id="@+id/tv_goods_price_zhe"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/gray07"
+                tools:text="€ 200.00"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" ></TextView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:paddingLeft="5dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        tools:text="西班牙涯大就西班牙涯大就"
+        android:id="@+id/tv_des"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" ></TextView>
+    
+    <View
+        android:layout_marginTop="5dp"
+        android:background="@color/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"></View>
+
+</LinearLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:orientation="vertical"
+    android:background="@color/transparent"
+    >
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:gravity="left|center_vertical"
+        android:background="@drawable/img_settings_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="135dp">
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="left|center_vertical"
+            android:id="@+id/line_messge"
+            android:orientation="horizontal"
+            android:layout_width="100dp"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:src="@drawable/img_xiaoxi"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/bg_black"
+                android:gravity="center"
+                android:text="我的消息"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <View
+            android:background="#dedfe0"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"></View>
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/line_mystore"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="100dp"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:src="@drawable/img_wodedian"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/bg_black"
+                android:gravity="center"
+                android:text="收货地址"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <View
+            android:background="#dedfe0"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"></View>
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="left|center_vertical"
+            android:id="@+id/line_dingdan"
+            android:orientation="horizontal"
+            android:layout_width="100dp"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:src="@drawable/img_tingdan"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/bg_black"
+                android:gravity="center"
+                android:text="订单"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <View
+            android:visibility="gone"
+            android:background="#dedfe0"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"></View>
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="left|center_vertical"
+            android:id="@+id/line_changyong"
+            android:orientation="horizontal"
+            android:layout_width="100dp"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:background="@drawable/img_wodechangyong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/bg_black"
+                android:gravity="center"
+                android:text="我的常用"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <View
+            android:visibility="gone"
+            android:background="#dedfe0"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"></View>
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="left|center_vertical"
+            android:id="@+id/line_bendian"
+            android:orientation="horizontal"
+            android:layout_width="100dp"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:src="@drawable/gybd"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/bg_black"
+                android:gravity="center"
+                android:text="关于本店"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="banner_zhanshi">
+        <item>@drawable/img_beijing</item>
+        <item>@drawable/img_beijing</item>
+        <item>@drawable/img_beijing</item>
+        <item>@drawable/img_beijing</item>
+    </string-array>
+
+</resources>

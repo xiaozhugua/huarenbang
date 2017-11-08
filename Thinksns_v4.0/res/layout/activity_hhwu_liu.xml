@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.abcs.haiwaigou.local.huohang.view.HHWuLiuActivity">
+    <RelativeLayout
+        android:id="@+id/relative_top"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/TitleHeight"
+        >
+
+        <include
+            layout="@layout/hqb_view_back"/>
+        <TextView
+            android:id="@+id/t_title_name"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textSize="36px"
+            android:text="查看物流"/>
+    </RelativeLayout>
+
+    <View
+        android:background="#acacac"
+        android:layout_width="match_parent"
+        android:layout_height="1px"></View>
+    <View
+        android:background="#f4f4f4"
+        android:layout_width="match_parent"
+        android:layout_height="18px"></View>
+    <View
+        android:background="#e3e5e9"
+        android:layout_width="match_parent"
+        android:layout_height="1px"></View>
+
+    <RelativeLayout
+        android:paddingBottom="28px"
+        android:paddingTop="28px"
+        android:paddingRight="30px"
+        android:paddingLeft="24px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_wuliu_state"
+            android:textSize="28px"
+            android:textColor="#666666"
+            android:text="物流状态："
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_toRightOf="@+id/tv_wuliu_state"
+            android:id="@+id/tv_wuliu_state_net"
+            android:textSize="28px"
+            android:textColor="@color/colorPrimaryDark2"
+            android:text=""
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="30px"
+            android:layout_below="@+id/tv_wuliu_state_net"
+            android:id="@+id/tv_wuliu_from"
+            android:textSize="28px"
+            android:textColor="#666666"
+            android:text="承运来源："
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="30px"
+            android:layout_below="@+id/tv_wuliu_from"
+            android:id="@+id/tv_wuliu_number"
+            android:textSize="28px"
+            android:textColor="#666666"
+            android:text="运单编号："
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="30px"
+            android:layout_below="@+id/tv_wuliu_number"
+            android:id="@+id/tv_wuliu_phone"
+            android:textSize="28px"
+            android:textColor="#666666"
+            android:text="官方电话："
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:visibility="invisible"
+            android:layout_marginTop="30px"
+            android:layout_below="@+id/tv_wuliu_from"
+            android:paddingRight="30px"
+            android:paddingLeft="30px"
+            android:paddingTop="7px"
+            android:paddingBottom="7px"
+            android:background="@drawable/bg_btn_gray_no_radius"
+            android:layout_alignParentRight="true"
+            android:id="@+id/tv_copy"
+            android:textSize="26px"
+            android:textColor="#666666"
+            android:text="复制"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <View
+        android:background="#e3e5e9"
+        android:layout_width="match_parent"
+        android:layout_height="1px"></View>
+    <View
+        android:background="#f4f4f4"
+        android:layout_width="match_parent"
+        android:layout_height="18px"></View>
+    <View
+        android:background="#e3e5e9"
+        android:layout_width="match_parent"
+        android:layout_height="1px"></View>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingBottom="28px"
+        android:paddingTop="28px"
+        android:paddingRight="30px"
+        android:paddingLeft="24px"
+        android:layout_width="match_parent"
+        android:layout_height="280px">
+        <TextView
+            android:textSize="28px"
+            android:textColor="#666666"
+            android:text="商家补充说明："
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="30px"
+            android:id="@+id/tv_wuliu_desc"
+            android:textSize="28px"
+            android:textColor="#666666"
+            android:text="暂无"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:background="#f4f4f4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></View>
+
+</LinearLayout>

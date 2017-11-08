@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yu_le_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abcs.yule.YuLeSettingActivity">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/back"
+                android:text="返回"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" ></TextView>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:text="设置"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" ></TextView>
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="@color/gray06"
+        android:layout_below="@+id/top"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <TextView
+            android:textSize="14sp"
+            android:textColor="@color/grayy"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:text="下载设置"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:text="允许非WI-FI网络下载"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13" />
+
+            <Switch
+
+                android:text="Switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/switch1"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                />
+
+            <View
+                android:layout_alignParentBottom="true"
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></View>
+        </RelativeLayout>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:textColor="@color/gray"
+            android:text="允许非WI-FI网络下载"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:text="每次提醒"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+            <View
+                android:layout_alignParentBottom="true"
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></View>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:text="提醒一次"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+
+            <View
+                android:layout_alignParentBottom="true"
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></View>
+        </RelativeLayout>
+        <View
+            android:background="@color/gray0.4"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+            <TextView
+                android:id="@+id/tv_jiedian"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="节电模式"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_below="@+id/tv_jiedian"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textColor="@color/gray"
+                android:text="电量在20%以下时不自动下载游戏"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+            <View
+                android:layout_alignParentBottom="true"
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></View>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+            <TextView
+                android:id="@+id/tv_wifi"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="WI-Fi下自动更新游戏"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_below="@+id/tv_wifi"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textColor="@color/gray"
+                android:text="WI-Fi下自动更新游戏"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+            <View
+                android:layout_alignParentBottom="true"
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></View>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+            <TextView
+                android:id="@+id/tv_auto_delete"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="自动删除安装包"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_below="@+id/tv_auto_delete"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textColor="@color/gray"
+                android:text="安装完成后，自动删除安装包（本条仅限安卓）"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+            <View
+                android:layout_alignParentBottom="true"
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></View>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+            <TextView
+                android:id="@+id/tv_apk_store"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="安装包存储位置"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_below="@+id/tv_apk_store"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textColor="@color/gray"
+                android:text="/storage/emulated/0/gamecenter（本条仅限安卓）"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+            <View
+                android:layout_alignParentBottom="true"
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></View>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

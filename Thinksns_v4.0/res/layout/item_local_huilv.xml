@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/relative_item"
+        android:background="@color/bg_huilv_select"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:src="@color/c_gray_text"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/image" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/tv_name"
+            android:layout_marginLeft="16dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/image"
+            android:text="RUR"
+            android:textColor="@color/bg_black"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="#b8b8b8"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"></View>
+
+        <EditText
+            android:paddingBottom="20dp"
+            android:paddingTop="12dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:background="@null"
+            android:hint="0"
+            tools:text="1234"
+            android:id="@+id/tv_num"
+            android:textStyle="bold"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/bg_black"
+            android:textSize="22sp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="23dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/tv_money_name"
+            android:textStyle="bold"
+            android:gravity="center"
+            tools:text="人民币"
+            android:textColor="#a9a9a9"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

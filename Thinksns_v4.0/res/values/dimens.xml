@@ -1,0 +1,136 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="footer_height">90dp</dimen>
+    <dimen name="footer_padding">10dp</dimen>
+
+    <dimen name="img_space_hight">1px</dimen>
+    <dimen name="text_default_size">14sp</dimen>
+    <dimen name="text_small_size">12sp</dimen>
+    <dimen name="text_big_size">16sp</dimen>
+
+
+    <!--                 zjz                 -->
+    <dimen name="text_more_big_size">16sp</dimen>
+    <dimen name="text_biggest_size">20sp</dimen>
+    <dimen name="padding_size1">1dp</dimen>
+    <dimen name="padding_size2">2dp</dimen>
+    <dimen name="padding_size3">3dp</dimen>
+    <dimen name="padding_size5">5dp</dimen>
+
+
+    <dimen name="margin_size1">1dp</dimen>
+    <dimen name="margin_size2">2dp</dimen>
+    <dimen name="margin_size3">3dp</dimen>
+    <dimen name="margin_size5">5dp</dimen>
+    <dimen name="margin_size9">9dp</dimen>
+    <dimen name="margin_size10">10dp</dimen>
+    <dimen name="margin_size12">12dp</dimen>
+    <dimen name="margin_size15">15dp</dimen>
+    <dimen name="margin_size20">20dp</dimen>
+    <dimen name="margin_size30">30dp</dimen>
+
+
+    <dimen name="side_letter_bar_letter_size">12sp</dimen>
+    <dimen name="side_letter_bar_width">36dp</dimen>
+    <dimen name="city_text_size">16sp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="small_medium_text_size">15sp</dimen>
+    <dimen name="small_middle_text_size">16sp</dimen>
+    <dimen name="medium_text_size">17sp</dimen>
+    <dimen name="super_text_size">24sp</dimen>
+    <!-- 字体大小 -->
+
+
+    <!-- 首页Gallery高度 -->
+    <!-- 首页Gallery高度 -->
+
+    <!-- 标题栏高度 -->
+
+    <!-- 列表菜单项高度 -->
+    <dimen name="item_height_middle">48dp</dimen>
+
+    <!-- 菜单项间隔 -->
+    <dimen name="item_margin_top">12dp</dimen>
+
+    <!-- 分隔条高度 -->
+    <dimen name="divider_height_middle">0.5dp</dimen>
+
+    <!-- 间隔 -->
+    <dimen name="item_margin">15dp</dimen>
+
+    <!-- 首页divider间隔 -->
+
+    <!--                 zjz  end               -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="abc_config_prefDialogWidth">320dp</dimen>
+    <dimen name="abc_action_bar_stacked_tab_max_width">180dp</dimen>
+    <dimen name="abc_action_bar_default_height">48dip</dimen>
+    <dimen name="abc_action_bar_stacked_max_height">48dp</dimen>
+    <dimen name="abc_panel_menu_list_width">296dp</dimen>
+    <dimen name="abc_search_view_text_min_width">160dip</dimen>
+    <dimen name="abc_search_view_preferred_width">320dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_left">8dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_right">8dip</dimen>
+    <dimen name="abc_dropdownitem_icon_width">32dip</dimen>
+    <dimen name="ButtonCornerSize">2.0dip</dimen>
+    <dimen name="topbar_height">52.0dip</dimen>
+    <dimen name="dialog_padding">15.0dip</dimen>
+    <dimen name="text_view_content">15.0sp</dimen>
+    <dimen name="text_list_title">16.0sp</dimen>
+
+    <!-- 多路视频dimen定义 -->
+
+    <dimen name="small_text_size">12sp</dimen>
+    <!-- The primary text size -->
+    <!-- The primary text size -->
+    <!-- The ccp button text size -->
+    <!-- The title large text size -->
+
+
+    <!-- The ccp item space -->
+    <!-- the mode developer or experience desc space -->
+    <!-- The primary margin space -->
+    <!-- The notice status bar height size -->
+    <!-- The secondary margin space -->
+    <!-- The ccp icon text or edit height -->
+
+
+    <!--THINKSNS-->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_linearlayout_margin">10dp</dimen>
+
+    <!-- 圆角属性值 -->
+    <dimen name="riv_corner_radius">5dp</dimen>
+    <dimen name="riv_border_width">0dp</dimen>
+    <!-- 副本任务条件 -->
+    <dimen name="arrow_size">25dp</dimen>
+    <dimen name="dot_ring_size">10dp</dimen>
+
+
+    <dimen name="dimen_10dp">5.0dp</dimen>
+    <dimen name="dimen_14dp">7.0dp</dimen>
+    <dimen name="dimen_15dp">7.5dp</dimen>
+    <dimen name="dimen_24dp">12.0dp</dimen>
+    <dimen name="dimen_30dp">15.0dp</dimen>
+    <dimen name="dimen_72dp">36.0dp</dimen>
+    <dimen name="dimen_90dp">45.0dp</dimen>
+
+    <dimen name="dimen_15sp">7.5sp</dimen>
+    <dimen name="dimen_18sp">9.0sp</dimen>
+    <dimen name="dimen_20sp">10.0sp</dimen>
+    <dimen name="dimen_25sp">12.5sp</dimen>
+    <dimen name="dimen_27sp">13.5sp</dimen>
+    <dimen name="dimen_28sp">14.0sp</dimen>
+    <dimen name="dimen_30sp">15.0sp</dimen>
+    <dimen name="dimen_35sp">17.5sp</dimen>
+    <dimen name="dimen_40sp">20.0sp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+</resources>

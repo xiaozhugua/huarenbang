@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_shexian"
+   >
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/img_caidai"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="420dp">
+
+        </ImageView>
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/rel_center"
+            android:background="@drawable/img_zhongjiangbeijing"
+            android:layout_width="420dp"
+            android:layout_height="420dp">
+            <ImageView
+                android:layout_above="@+id/tv_name"
+                android:layout_margin="15dp"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/tv_name"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:maxLines="2"
+                android:text="华为手机积极急急急华为手机积极急急急华为手机积极急急急"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/img_ok"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/rel_center"
+            android:background="@drawable/img_chakananniu"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+           />
+    </RelativeLayout>
+
+</RelativeLayout>

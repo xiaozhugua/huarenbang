@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/swipeRefresh"
+    android:layout_height="match_parent"
+   >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/liner_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:gravity="center">
+
+                    <com.abcs.haiwaigou.view.zjzbanner.LMBanners
+                        android:id="@+id/banners"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:canLoop="true"
+                        app:isVertical="false"
+                        app:auto_play="true"
+                        app:durtion="3000"
+                        app:scroll_duration="1000"
+                        app:indicator_select="@drawable/img_huohang_n_dian2"
+                        app:indicator_unselect="@drawable/img_huohang_n_dian1"
+                        app:horizontal_transitionEffect="accordion"
+                        app:indicator_position="bottom_mid">
+
+                    </com.abcs.haiwaigou.view.zjzbanner.LMBanners>
+                </LinearLayout>
+
+                <com.abcs.haiwaigou.view.MyListView
+                    android:layout_below="@+id/liner_banner"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:id="@+id/my_listview"
+                    android:dividerHeight="0.5dp"
+                    android:divider="#d8d8d8"
+                    android:cacheColorHint="@color/transparent"
+                    android:listSelector="@color/transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </com.abcs.haiwaigou.view.MyListView>
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+        <include
+            layout="@layout/hh_null"></include>
+    </RelativeLayout>
+
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+

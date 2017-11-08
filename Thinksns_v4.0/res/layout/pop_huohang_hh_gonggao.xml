@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:background="@drawable/corcur_white_bg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/hh_dong_kuang1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <ImageView
+                android:padding="3dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="7dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/iv_close"
+                android:src="@drawable/hh_dong_close"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:background="@drawable/hh_dong_tab"
+                android:layout_width="3dp"
+                android:layout_height="15dp"></View>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="#333333"
+                android:text="店铺公告"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+            <TextView
+
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                tools:text="本店为本店为广泛本店为本店为本店为广泛本店为广泛本店为广泛本店为广泛本店为广泛本店为广泛本店为广泛本店为广泛广泛广泛本店为广泛本店为广泛本店为广泛本店为广泛本店为广泛本店为广泛广泛"
+                android:id="@+id/tv_content_gg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </ScrollView>
+
+
+        <View
+            android:background="#e1e1e1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:background="@drawable/hh_dong_tab"
+                android:layout_width="3dp"
+                android:layout_height="15dp"></View>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="#333333"
+                android:text="优惠活动"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+       <LinearLayout
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:id="@+id/liner_act"
+           android:gravity="center_horizontal"
+           android:paddingLeft="13dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"></LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/hwg_bg">
+    <RelativeLayout
+        android:id="@+id/relative_mian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/title"
+            android:background="@drawable/img_huohang_n_bg"
+            android:layout_width="match_parent"
+            android:layout_height="165dp">
+            <RelativeLayout
+                android:id="@+id/top"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                >
+
+                <RelativeLayout
+                    android:visibility="visible"
+                    android:id="@+id/relative_back"
+                    android:layout_width="?attr/TitleHeight"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    >
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/img_huohang_n_back" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/relative_more"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_setting"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/img_huohang_n_more" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/relative_seach"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_centerInParent="true"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/img_huohang_n_search2" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <com.abcs.huaqiaobang.view.CircleImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginLeft="18dp"
+                android:layout_below="@+id/top"
+                android:id="@+id/tv_circle_img"
+                android:src="@drawable/default_image"
+                android:layout_width="55dp"
+                android:layout_height="55dp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tv_circle_img"
+                android:layout_below="@+id/top"
+                android:id="@+id/tv_store_name"
+                tools:text="仟惠仁（维也纳）"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_size_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:layout_marginRight="15dp"
+                android:id="@+id/tv_des"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tv_circle_img"
+                android:layout_below="@+id/tv_store_name"
+                tools:text="仟惠仁（维也纳）仟惠仁（维也纳）仟惠仁（维也纳）仟惠仁（维也纳）"
+                android:textColor="#b3ffffff"
+                android:textSize="@dimen/dimen_size_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layerType="software"
+                android:id="@+id/line"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tv_des"
+                android:background="@drawable/xuxiang"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"></View>
+
+            <RelativeLayout
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ViewFlipper
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:id="@+id/view_flipper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </ViewFlipper>
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:layout_marginRight="15dp"
+                    android:id="@+id/tv_huodong_num"
+                    android:layout_alignParentRight="true"
+                    android:drawableRight="@drawable/img_huohang_n_gg"
+                    tools:text="3个活动"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimen_size_14"
+                    android:layout_width="80dp"
+                    android:layout_height="25dp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_below="@+id/top"
+                android:id="@+id/view_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></View>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lin_tab"
+            android:gravity="center"
+            android:layout_below="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--<android.support.design.widget.TabLayout-->
+            <!--android:background="@color/transparent"-->
+            <!--android:id="@+id/main_tabs"-->
+            <!--app:tabIndicatorColor="@color/colorPrimaryDark2"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/y32">-->
+
+            <!--</android.support.design.widget.TabLayout>-->
+
+            <View
+                android:id="@+id/liner_center"
+                android:layout_centerInParent="true"
+                android:background="@color/line"
+                android:layout_width="0.1dp"
+                android:layout_height="0.1dp"></View>
+            <RelativeLayout
+                android:id="@+id/relative_shangpin"
+                android:layout_toLeftOf="@+id/liner_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/tv_shangping"
+                    android:src="@drawable/line_tab"
+                    android:id="@+id/bg_line_buttom"
+                    android:background="@color/line"
+                    android:layout_width="20dp"
+                    android:layout_height="2dp"></ImageView>
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryDark2"
+                    android:id="@+id/tv_shangping"
+                    android:gravity="center"
+                    android:text="商品"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_shangjia"
+                android:layout_toRightOf="@+id/liner_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:visibility="invisible"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/tv_shangjia"
+                    android:src="@drawable/line_tab"
+                    android:id="@+id/bg_line_buttom2"
+                    android:background="@color/line"
+                    android:layout_width="20dp"
+                    android:layout_height="2dp"></ImageView>
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/textcloor"
+                    android:id="@+id/tv_shangjia"
+                    android:gravity="center"
+                    android:text="商家"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_below="@+id/lin_tab"
+            android:id="@+id/seperate_line"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#d2d2d2" />
+
+        <android.support.v4.view.ViewPager
+            android:layout_below="@+id/seperate_line"
+            android:id="@+id/main_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <include layout="@layout/activity_select_store"></include>
+</RelativeLayout>

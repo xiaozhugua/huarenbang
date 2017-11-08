@@ -1,0 +1,6 @@
+<resources>>
+
+    <style name="AppTheme_MyCustom" parent="BaseAppTheme">
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+</resources>

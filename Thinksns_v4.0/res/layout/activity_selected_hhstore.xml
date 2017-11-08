@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_selected_hhstore"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abcs.haiwaigou.local.huohang.view.SelectedHHStoreActivity">
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative_top"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/TitleHeight"
+        android:background="@color/white">
+
+        <include
+            layout="@layout/main_layout_titlebar_white"/>
+    </RelativeLayout>
+
+    <GridView
+        android:layout_below="@+id/relative_top"
+        android:id="@+id/listview"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:listSelector="@color/transparent"
+        android:cacheColorHint="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_above="@+id/btn_commint"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:horizontalSpacing="3dp"
+        android:numColumns="4"
+        android:verticalSpacing="5dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/relative_ruzhu"
+        android:layout_alignParentBottom="true"
+        android:background="#f5f5f5"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <TextView
+            android:gravity="center"
+            android:background="@drawable/bg_btn_red"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:text="我要入驻"
+            android:layout_width="105dp"
+            android:layout_height="35dp" />
+    </RelativeLayout>
+</RelativeLayout>

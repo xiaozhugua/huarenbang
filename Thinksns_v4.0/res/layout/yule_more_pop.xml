@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rel_down"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/mainclick_selector"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+        <View
+            android:layout_alignParentTop="true"
+            android:background="@color/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"></View>
+        <TextView
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/iv_yule_xiangxi_manager"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="下载管理"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp" />
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"></View>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rel_update"
+        android:background="@drawable/mainclick_selector"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+        <TextView
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/iv_yule_update"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="游戏更新"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp" />
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"></View>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rel_settting"
+        android:background="@drawable/mainclick_selector"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+        <TextView
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/iv_yule_setting"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="设置        "
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp" />
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"></View>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rel_fankui"
+        android:background="@drawable/mainclick_selector"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+        <TextView
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/iv_yule_fankui"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="意见反馈"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp" />
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"></View>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

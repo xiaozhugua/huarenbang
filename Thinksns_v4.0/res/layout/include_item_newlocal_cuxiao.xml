@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:visibility="gone"
+    android:background="@color/white"
+    android:id="@+id/relative_jiexiao"
+    android:layout_marginBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/hqb_local_fragment">
+
+
+    <RelativeLayout
+        android:id="@+id/relat_tt"
+        android:layout_margin="7dp"
+        android:background="#fdf6f5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_hd_icon"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="44dp"
+            android:layout_height="60dp" />
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/img_hd_canyu"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_toRightOf="@+id/img_hd_icon"
+            android:id="@+id/img_hd_name"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/title_color"
+            android:textSize="16sp"
+            android:text="iPhone 7 PlusiPhone 7 PlusiPhone 7 Plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/lin_des"
+            android:layout_toRightOf="@+id/img_hd_icon"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/img_hd_name"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/img_hd_des"
+                android:textColor="@color/smallFont2"
+                android:textSize="13sp"
+                android:text="即将揭晓！"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/img_hd_jindu"
+                android:textColor="@color/blue"
+                android:textSize="13sp"
+                android:text="80%"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:layout_below="@+id/lin_des"
+            android:layout_toRightOf="@+id/img_hd_icon"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_toLeftOf="@+id/img_hd_canyu"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/goods_prograss"
+            style="@style/ProgressBar_yyg"
+            android:layout_width="fill_parent"
+            android:layout_height="8dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:visibility="gone"
+            android:gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_below="@+id/img_hd_name"
+            android:layout_marginTop="5dp"
+            android:id="@+id/img_hd_time"
+            android:background="@drawable/bg_btn1"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:text="05:12:22"
+            android:paddingRight="3dp"
+            android:paddingLeft="3dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:background="@drawable/bgd_relatly_line"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:id="@+id/img_hd_canyu"
+            android:textColor="#e1223e"
+            android:textSize="13sp"
+            android:text="立即参与"
+            android:layout_width="100dp"
+            android:layout_height="32dp" />
+
+
+    </RelativeLayout>
+
+    <!--暂时隐藏-->
+    <ImageView
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/img_hd_icon2"
+        android:layout_marginLeft="15dp"
+        android:src="@color/actionbar_txtcolor_gray"
+        android:layout_width="68dp"
+        android:layout_height="50dp" />
+    <!--暂时隐藏-->
+    <ImageView
+        android:visibility="gone"
+        android:layout_below="@+id/relat_tt"
+        android:layout_toRightOf="@+id/img_hd_icon2"
+        android:id="@+id/img_hd_i_zhongjian"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/img_new_local_zhongjian"
+        android:layout_width="55dp"
+        android:layout_height="20dp" />
+    <!--暂时隐藏-->
+    <TextView
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/img_hd_icon2"
+        android:layout_below="@+id/img_hd_i_zhongjian"
+        android:id="@+id/tv_1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/gray"
+        android:textSize="12sp"
+        android:text="恭喜"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--暂时隐藏-->
+    <TextView
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/tv_1"
+        android:layout_below="@+id/img_hd_i_zhongjian"
+        android:id="@+id/tv_2_name"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        android:text="李夏德"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--暂时隐藏-->
+    <TextView
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/tv_2_name"
+        android:layout_below="@+id/img_hd_i_zhongjian"
+        android:id="@+id/tv_3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/gray"
+        android:textSize="12sp"
+        android:text="刚刚获得了"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--暂时隐藏-->
+    <TextView
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/tv_3"
+        android:layout_below="@+id/img_hd_i_zhongjian"
+        android:id="@+id/tv_4"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#f05169"
+        android:textSize="12sp"
+        android:text="移动100元充值卡"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

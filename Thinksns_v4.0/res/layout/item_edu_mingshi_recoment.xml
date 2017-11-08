@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <com.abcs.huaqiaobang.view.CircleImageView
+        android:src="@drawable/default_image"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/iv_icon" />
+
+    <TextView
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:text="中文入门"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name" />
+    <TextView
+        android:layout_below="@+id/tv_name"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/gray"
+        android:textSize="12sp"
+        android:text="老师，亲子教育老师，亲子教育老师，亲子教育老师，亲子教育老师，亲子教育老师，亲子教育老师，亲子教育老师，亲子教育老师，亲子教育老师，亲子教育老师，亲子教育老师，亲子教育"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_des" />
+    <TextView
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentBottom="true"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/gray"
+        android:textSize="10sp"
+        android:text="8000人关注|12个节目"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_number" />
+
+</RelativeLayout>

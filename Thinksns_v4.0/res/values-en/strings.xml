@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">华人邦</string>
+
+    <string name="login_regist">Regist</string>
+    <string name="login_login">Login</string>
+    <string name="login_login_ok">Confirm login</string>
+    <string name="hint_username">username</string>
+    <string name="hint_password">password</string>
+    <string name="confirm_password">Please confirm your password</string>
+    <string name="login_submit">Submit</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="sign_in_quickly">或使用以下社交帐号快速登录</string>
+    <string name="cancel">Cancel</string>
+    <string name="through_by_mail">Through by mail</string>
+    <string name="through_by_mobile">Through by mobile phone</string>
+
+    <string name="prompt">Prompt</string>
+    <string name="ok">Ok</string>
+
+    <string name="shipping_address">Shipping address</string>
+    <string name="no_shipping_address">No shipping address now</string>
+    <string name="add_shipping_address">Add shipping address</string>
+
+    <string name="bind_mobile_phone">Bind the mobile mobile phone</string>
+    <string name="enter_mobile_phone">Please enter your mobile phone</string>
+    <string name="get_sms_code">Get the sms code</string>
+    <string name="enter_sms_code">Please enter the sms code</string>
+    <string name="bind_mobile_phone_ok">Ok</string>
+    <string name="verification_method">Please select the verification method</string>
+    <string name="get_security_validation">Get security validation</string>
+    <string name="enter_security_code">Please enter security code</string>
+    <string name="next">Next</string>
+    <string name="enter_mail">Enter mail</string>
+    <string name="bind_mail">Bind mail</string>
+    <string name="enter_payment_password">Please enter payment password</string>
+    <string name="confirm_payment_password">Please confirm payment password</string>
+    <string name="set_payment_password">Set payment password</string>
+    <string name="modify_payment_password">Modify payment password</string>
+
+    <string name="add_or_modify_address">Add/Modify the address</string>
+    <string name="save">Save</string>
+    <string name="receiver_name">Receiver name</string>
+    <string name="mobile_phone">Mobile phone</string>
+    <string name="province">Province</string>
+    <string name="city">City</string>
+    <string name="area">Area</string>
+    <string name="detaile_address">Detaile address</string>
+    <string name="postcode">Postcode</string>
+    <string name="id_card">ID Card</string>
+    <string name="set_default_address">Set default address</string>
+
+    <string name="lottery_goods_detail_title">Goods detail</string>
+    <string name="all_need">Need:</string>
+    <string name="join">Join</string>
+    <string name="remain">Remain:</string>
+    <string name="immediately_buy">Buy</string>
+    <string name="lottery_user">Lottery user:</string>
+    <string name="current_join">Current join:</string>
+    <string name="publish_time">Publish time:</string>
+    <string name="lucky_number">Lucky number:</string>
+    <string name="prize_status">Prize status:</string>
+    <string name="goods_detail">Goods detail</string>
+    <string name="my_luck_number">My lucky number</string>
+    <string name="past_pulish">Past publish</string>
+    <string name="good_list">Good list</string>
+    <string name="waiting">Waiting for the distribution of goods</string>
+    <string name="all_participant_records">All participant records</string>
+    <string name="publishing">Publishing</string>
+    <string name="join_number">engagements:</string>
+
+    <string name="payment_order">Payment order</string>
+    <string name="order_amount">Order amount</string>
+    <string name="select_payment_method">Select payment method</string>
+    <string name="need_more">Need more</string>
+    <string name="bank_card">By bank card</string>
+    <string name="wechat">By wechat</string>
+    <string name="alipay">By alipay</string>
+    <string name="confirm_payment">Ok</string>
+
+    <string name="yyyg_goods">Goods</string>
+    <string name="yyyg_publish">Publish</string>
+    <string name="yyyg_my">My</string>
+
+    <string name="no_data_record">No data record</string>
+    <string name="refresh">Refresh</string>
+    <string name="loading_more">Loading more</string>
+
+    <string name="address_name">华人邦</string>
+    <string name="address_phone">12345678910</string>
+    <string name="address_detail">广东 深圳市 福田区 车公庙还松大厦707A</string>
+    <string name="id_card_info">Id card:</string>
+    <string name="address_edit">Edit</string>
+    <string name="address_delete">Delete</string>
+    <string name="no_more">No more</string>
+    <string name="loading">Loading...</string>
+    <string name="reload">reLoad</string>
+    <string name="head">Head</string>
+
+    <string name="publish_detail">Publish detail</string>
+    <string name="publish_countdown">countdown:</string>
+    <string name="more_effort_more_fortunate">More effort,More fortunate</string>
+    <string name="order_detail">Order detail</string>
+    <string name="ship_now">Ship now</string>
+    <string name="address">Set Address</string>
+    <string name="my_lucky_purchase">My lucky purchase</string>
+    <string name="cloud_balance">Balance</string>
+    <string name="income_and_expenditure_details">Income and Expenditure</string>
+    <string name="select_number">Select number</string>
+
+    <string name="yygbuy_t_name">第一期 100元购物卡</string>
+    <string name="yygbuy_all_need">总需100人次</string>
+    <string name="yygbuy_people_number">number</string>
+    <string name="number_of_participants">number</string>
+    <string name="winning_probability">Probability</string>
+    <string name="buy_now">Buy</string>
+    <string name="yyyg_rule">Rule</string>
+    <string name="past_record">Record</string>
+    <string name="set_goods_address">Set address</string>
+    <string name="tip">温馨提示：请您填写正确的地址信息，确保商品能够送达</string>
+    <string name="select_goods_address">Select goods address</string>
+
+    <string name="consignee_name">Consignee name:</string>
+    <string name="income">Income(¥)</string>
+    <string name="out">Out(¥)</string>
+    <string name="join_num1">join(</string>
+    <string name="join_num2">)times</string>
+    <string name="remain_num1">Remain:</string>
+    <string name="remain_num2">times</string>
+    <string name="all_out">All out(¥)</string>
+    <string name="cloud_balance2">Balance(¥)</string>
+    <string name="all_income">All income(¥)</string>
+
+    <string name="enter_confirmation_code">Enter confirmation code</string>
+    <string name="send_to_phone">A verification code has been sent to this phone</string>
+    <string name="receive_the_message">It takes about 60 seconds to receive the message</string>
+    <string name="account_securitycode">Get confirmation code</string>
+    <string name="phone_registration">Registration</string>
+    <string name="send_securitycode_to_phone">We will send a verification code to your mobile phone</string>
+    <string name="step_phone">Phone</string>
+    <string name="enter_regist_phone">Regist phone</string>
+    <string name="step_next">Next</string>
+    <string name="regist">Regist</string>
+    <string name="wait">Waiting...</string>
+    <string name="bound_mail">Bound mail:</string>
+
+
+    <string name="yyg_rule">
+        What is a 1 Yuan Cloud Purchase?\n
+        1 Yuan Cloud Purchase is that you spend 1 yuan to buy a lucky code, the same item can be purchased several times or once to buy multiple copies of the purchase of "lucky code" the more the greater the probability of access to goods. Each item of all the numbers assigned to sell, 1 yuan cloud will be calculated according to the rules to calculate a number. The user who owns the lucky number can directly obtain the commodity.Three-step operation:\n
+        1、Selection of goods\n
+        Browse 1 Yuan cloud within the purchase of goods, click on "Buy"。\n
+        2、Pay 1 yuan\n
+        Through the online payment platform, to pay 1 yuan to buy 1 person, get a "lucky code." The same item can be purchased several times or once to buy multiple copies of the purchase of the "lucky code" the more the greater the probability of access to goods.\n
+        3、Announced the winner\n
+        When a product reaches the total number of participants, out of a merchandise winner, you can in one yuan lucky buy "my" check your single and lucky records.\n
+        Note: After the goods are announced, if you are in the shopping card, the shopping card will immediately to your one dollar cloud purchase "my" account balance. You can choose to buy overseas Chinese goods or purchase a dollar purchase, but can not mention now.\n
+        If you are in the kind of goods, you can choose to buy overseas Chinese goods to help or continue to buy one dollar cloud purchase, add the address as soon as possible after we ship with you. If you choose the kind of goods, please note that fill out your personal real details, so that we can accurately for your distribution of goods. After delivery, there will be SMS alerts, you can also purchase a dollar cloud "My Prize status" query, to understand the current distribution schedule.\n
+        Lucky number calculation rules\n
+        1、Take this Item last purchase time before the site all the goods 100 to buy time records (limited time announced goods to take time before the site all the goods 100 purchase time record.\n
+        2、Time in minutes, minutes, seconds, milliseconds in order to form a group of values.\n
+        3、The total value of these 100 divided by the total number of goods to be taken after the number of people taking the remainder plus 10,000,001 is the "lucky cloud purchase code"\n
+        Note: 1 Yuan Cloud Purchase activities to explain the right to all overseas Chinese help.\n
+    </string>
+
+    <string name="type_email">0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+    <string name="type_pwd">1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+    <string name="type_limit">0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+    <string name="yt">YaTai</string>
+    <string name="read_more">expand</string>
+    <string name="read_less">put away</string>
+</resources>
